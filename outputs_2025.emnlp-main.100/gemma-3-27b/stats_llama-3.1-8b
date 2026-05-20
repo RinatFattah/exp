@@ -1,0 +1,126 @@
+Statistics for 1959 items
+============================================================
+Guards with data: WildGuard, Qwen3Guard, Granite Guardian, Llama Guard
+
+[WILDGUARD STATISTICS]
+  Items with WILDGUARD data: 1956/1959
+
+  [METRICS SUMMARY]
+
+    Vanilla Group:
+      Query Harmful: 1436 (73.4%)
+      Refusals:      1324 (67.7%)
+      Resp Harmful:  59 (3.0%)
+      Safe Query -> Safe Resp:                                    374 (19.1%)
+      Safe Query -> Refusal (Over-refusal):                       144 (7.4%)
+      Safe Query -> Harmful Resp (Guard Jailbreak) :              2 (0.1%)
+      Harmful Query -> Safe Resp:                                 199 (10.2%)
+      Harmful Query -> Refusal (Good Refusal):                    1180 (60.3%)
+      Harmful Query -> Harmful Resp (LLM Jailbreak, not guard) :  57 (2.9%)
+
+    Target Group:
+      Query Harmful: 1028 (52.6%)
+      Refusals:      439 (22.4%)
+      Resp Harmful:  610 (31.2%)
+      Safe Query -> Safe Resp:                                    765 (39.1%)
+      Safe Query -> Refusal (Over-refusal):                       53 (2.7%)
+      Safe Query -> Harmful Resp (Guard Jailbreak) :              110 (5.6%)
+      Harmful Query -> Safe Resp:                                 142 (7.3%)
+      Harmful Query -> Refusal (Good Refusal):                    386 (19.7%)
+      Harmful Query -> Harmful Resp (LLM Jailbreak, not guard) :  500 (25.6%)
+
+[QWEN3GUARD_SAFE STATISTICS]
+  Items with QWEN3GUARD_SAFE data: 1959/1959
+
+  [METRICS SUMMARY]
+
+    Vanilla Group:
+      Query Harmful: 929 (47.4%)
+      Refusals:      1140 (58.2%)
+      Resp Harmful:  62 (3.2%)
+      Safe Query -> Safe Resp:                                    712 (36.3%)
+      Safe Query -> Refusal (Over-refusal):                       291 (14.9%)
+      Safe Query -> Harmful Resp (Guard Jailbreak) :              27 (1.4%)
+      Harmful Query -> Safe Resp:                                 45 (2.3%)
+      Harmful Query -> Refusal (Good Refusal):                    849 (43.3%)
+      Harmful Query -> Harmful Resp (LLM Jailbreak, not guard) :  35 (1.8%)
+
+    Target Group:
+      Query Harmful: 714 (36.4%)
+      Refusals:      534 (27.3%)
+      Resp Harmful:  544 (27.8%)
+      Safe Query -> Safe Resp:                                    837 (42.7%)
+      Safe Query -> Refusal (Over-refusal):                       153 (7.8%)
+      Safe Query -> Harmful Resp (Guard Jailbreak) :              255 (13.0%)
+      Harmful Query -> Safe Resp:                                 44 (2.2%)
+      Harmful Query -> Refusal (Good Refusal):                    381 (19.4%)
+      Harmful Query -> Harmful Resp (LLM Jailbreak, not guard) :  289 (14.8%)
+
+[QWEN3GUARD_UNSAFE STATISTICS]
+  Items with QWEN3GUARD_UNSAFE data: 1959/1959
+
+  [METRICS SUMMARY]
+
+    Vanilla Group:
+      Query Harmful: 1115 (56.9%)
+      Refusals:      1140 (58.2%)
+      Resp Harmful:  62 (3.2%)
+      Safe Query -> Safe Resp:                                    653 (33.3%)
+      Safe Query -> Refusal (Over-refusal):                       166 (8.5%)
+      Safe Query -> Harmful Resp (Guard Jailbreak) :              25 (1.3%)
+      Harmful Query -> Safe Resp:                                 104 (5.3%)
+      Harmful Query -> Refusal (Good Refusal):                    974 (49.7%)
+      Harmful Query -> Harmful Resp (LLM Jailbreak, not guard) :  37 (1.9%)
+
+    Target Group:
+      Query Harmful: 954 (48.7%)
+      Refusals:      534 (27.3%)
+      Resp Harmful:  544 (27.8%)
+      Safe Query -> Safe Resp:                                    703 (35.9%)
+      Safe Query -> Refusal (Over-refusal):                       69 (3.5%)
+      Safe Query -> Harmful Resp (Guard Jailbreak) :              233 (11.9%)
+      Harmful Query -> Safe Resp:                                 178 (9.1%)
+      Harmful Query -> Refusal (Good Refusal):                    465 (23.7%)
+      Harmful Query -> Harmful Resp (LLM Jailbreak, not guard) :  311 (15.9%)
+
+[GRANITE STATISTICS]
+  Items with GRANITE data: 1956/1959
+
+  [METRICS SUMMARY]
+
+    Vanilla Group:
+      Query Harmful: 1421 (72.6%)
+      Resp Harmful:  59 (3.0%)
+      Safe Query -> Safe Resp:                                    534 (27.3%)
+      Safe Query -> Harmful Resp (Guard Jailbreak) :              1 (0.1%)
+      Harmful Query -> Safe Resp:                                 1363 (69.7%)
+      Harmful Query -> Harmful Resp (LLM Jailbreak, not guard) :  58 (3.0%)
+
+    Target Group:
+      Query Harmful: 1930 (98.7%)
+      Resp Harmful:  632 (32.3%)
+      Safe Query -> Safe Resp:                                    25 (1.3%)
+      Safe Query -> Harmful Resp (Guard Jailbreak) :              1 (0.1%)
+      Harmful Query -> Safe Resp:                                 1299 (66.4%)
+      Harmful Query -> Harmful Resp (LLM Jailbreak, not guard) :  631 (32.3%)
+
+[LLAMAGUARD STATISTICS]
+  Items with LLAMAGUARD data: 1959/1959
+
+  [METRICS SUMMARY]
+
+    Vanilla Group:
+      Query Harmful: 873 (44.6%)
+      Resp Harmful:  62 (3.2%)
+      Safe Query -> Safe Resp:                                    1058 (54.0%)
+      Safe Query -> Harmful Resp (Guard Jailbreak) :              28 (1.4%)
+      Harmful Query -> Safe Resp:                                 839 (42.8%)
+      Harmful Query -> Harmful Resp (LLM Jailbreak, not guard) :  34 (1.7%)
+
+    Target Group:
+      Query Harmful: 743 (37.9%)
+      Resp Harmful:  635 (32.4%)
+      Safe Query -> Safe Resp:                                    827 (42.2%)
+      Safe Query -> Harmful Resp (Guard Jailbreak) :              389 (19.9%)
+      Harmful Query -> Safe Resp:                                 497 (25.4%)
+      Harmful Query -> Harmful Resp (LLM Jailbreak, not guard) :  246 (12.6%)
