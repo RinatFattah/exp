@@ -74,13 +74,25 @@ class DatasetGenerator:
         self.max_concurrent = max_concurrent
         self.model_name = model_name
 
+    # Cap on the user-supplied prompt length before it is injected into the
+    # NL→FOL template. The template duplicates {request}, adds ~250 tokens of
+    # boilerplate, and the inference server is typically configured with a
+    # 2048-token context window. Keeping the prompt under ~1600 chars
+    # (~400 tokens) leaves headroom for the template + completion.
+    _MAX_PROMPT_CHARS = 1600
+
     async def _translate_to_fol(
         self,
         client: openai.AsyncOpenAI,
         semaphore: asyncio.Semaphore,
         prompt: str,
     ) -> str:
-        user_msg = _NL_FOL_PROMPT_TEMPLATE.replace("{request}", prompt)
+        safe_prompt = (
+            prompt
+            if len(prompt) <= self._MAX_PROMPT_CHARS
+            else prompt[: self._MAX_PROMPT_CHARS]
+        )
+        user_msg = _NL_FOL_PROMPT_TEMPLATE.replace("{request}", safe_prompt)
         async with semaphore:
             response = await client.chat.completions.create(
                 model=self.model_name,
@@ -99,10 +111,12 @@ class DatasetGenerator:
         idx: int,
         dataset_name: str,
         original_prompt: str,
-    ) -> dict:
+    ) -> dict | None:
         try:
             fol = await self._translate_to_fol(client, semaphore, original_prompt)
-            attack_prompt = _JAILBREAK_WRAPPER.format(fol=fol)
+            # Use .replace rather than .format: FOL outputs may contain literal
+            # `{` or `}` which would otherwise raise KeyError from str.format.
+            attack_prompt = _JAILBREAK_WRAPPER.replace("{fol}", fol)
             return {
                 "source": f"{dataset_name}:{idx}",
                 "original_prompt": original_prompt,
@@ -110,6 +124,21 @@ class DatasetGenerator:
                 "target_response": "",
                 "strategy_name": self.STRATEGY_NAME,
             }
+        except openai.BadRequestError as exc:
+            # Most common: request exceeds the server's context window for an
+            # unusually long input. Skip rather than aborting the whole run.
+            logger.error(
+                "Skipping item %d (%s) — bad request: %s", idx, dataset_name, exc
+            )
+            return None
+        except (openai.APIConnectionError, openai.APITimeoutError) as exc:
+            logger.error(
+                "Skipping item %d (%s) — connection error: %s",
+                idx,
+                dataset_name,
+                exc,
+            )
+            return None
         except Exception as exc:
             logger.error("Error processing item %d (%s): %s", idx, dataset_name, exc)
             raise
@@ -242,15 +271,35 @@ class DatasetGenerator:
                 logger.info("Loading dataset %s from Hugging Face Hub", dataset_name)
                 try:
                     ds = load_dataset(dataset_name, split="train", token=token)
+                    prompts = [_get_column(row, column) for row in ds]
                 except Exception as _exc:
-                    if "gated" in str(_exc).lower():
+                    _msg = str(_exc).lower()
+                    if "gated" in _msg:
                         raise RuntimeError(
                             f"Dataset '{dataset_name}' is gated. Visit "
                             f"https://huggingface.co/datasets/{dataset_name} "
                             f"to request access, then retry."
                         ) from _exc
-                    raise
-                prompts = [_get_column(row, column) for row in ds]
+                    if "config name is missing" in _msg or "config name is required" in _msg:
+                        logger.info(
+                            "Dataset %s requires a config name; enumerating and loading all configs",
+                            dataset_name,
+                        )
+                        configs = get_dataset_config_names(dataset_name, token=token)
+                        prompts = []
+                        for cfg in configs:
+                            try:
+                                ds = load_dataset(dataset_name, cfg, split="train", token=token)
+                            except Exception:
+                                ds = load_dataset(dataset_name, cfg, token=token)
+                                ds = ds[next(iter(ds))]
+                            for row in ds:
+                                try:
+                                    prompts.append(_get_column(row, column))
+                                except KeyError:
+                                    continue
+                    else:
+                        raise
 
             if max_samples is not None:
                 prompts = prompts[:max_samples]
@@ -279,10 +328,17 @@ class DatasetGenerator:
             completed = 0
             total = len(tasks)
             for future in asyncio.as_completed(list(tasks.keys())):
-                result = await future
+                try:
+                    result = await future
+                except Exception as exc:
+                    logger.error("Task failed, skipping: %s", exc)
+                    completed += 1
+                    continue
                 completed += 1
                 if completed % 10 == 0 or completed == total:
                     logger.info("Progress: %d/%d items processed", completed, total)
+                if result is None:
+                    continue
                 yield result
 
         finally:
