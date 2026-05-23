@@ -249,5 +249,39 @@ def _load_prompts(dataset_name: str, column: str, token: str | None) -> list[str
                     return df[fallback_col].dropna().tolist()
             raise
 
-    ds = datasets.load_dataset(dataset_name, split="train", token=token)
-    return [row[column] for row in ds]
+    try:
+        return _load_any_split(dataset_name, None, column, token)
+    except ValueError as e:
+        if "Config name is missing" not in str(e):
+            raise
+        configs = datasets.get_dataset_config_names(dataset_name, token=token)
+        logger.info(
+            "Dataset %s requires a config; loading all configs: %s",
+            dataset_name,
+            configs,
+        )
+        prompts: list[str] = []
+        for config in configs:
+            prompts.extend(_load_any_split(dataset_name, config, column, token))
+        return prompts
+
+
+def _load_any_split(
+    dataset_name: str, config: str | None, column: str, token: str | None
+) -> list[str]:
+    """Load `column` from a dataset, preferring the `train` split but falling
+    back to all available splits if `train` is absent."""
+    args = (dataset_name,) if config is None else (dataset_name, config)
+    try:
+        ds = datasets.load_dataset(*args, split="train", token=token)
+        return [row[column] for row in ds if column in row]
+    except ValueError as e:
+        if "Unknown split" not in str(e) and "split" not in str(e).lower():
+            raise
+        ds_dict = datasets.load_dataset(*args, token=token)
+        rows: list[str] = []
+        for split_name in ds_dict:
+            for row in ds_dict[split_name]:
+                if column in row:
+                    rows.append(row[column])
+        return rows
