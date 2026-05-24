@@ -247,8 +247,27 @@ class DatasetGenerator:
                     fallback_col = "goal" if "goal" in df.columns else df.columns[0]
                     rows = df[fallback_col].dropna().tolist()
         else:
-            ds = load_dataset(dataset_name, split="train", token=token)
-            rows = [row[column] for row in ds]
+            try:
+                ds = load_dataset(dataset_name, split="train", token=token)
+                rows = [row[column] for row in ds]
+            except ValueError as e:
+                if "Config name is missing" not in str(e):
+                    raise
+                logger.warning(
+                    "Dataset %r requires a config name (%s); "
+                    "loading all available configs",
+                    dataset_name,
+                    e,
+                )
+                configs = get_dataset_config_names(dataset_name, token=token)
+                rows = []
+                for cfg in configs:
+                    ds = load_dataset(dataset_name, cfg, token=token)
+                    splits = ds.keys() if hasattr(ds, "keys") else [None]
+                    for split in splits:
+                        subset = ds[split] if split is not None else ds
+                        for row in subset:
+                            rows.append(_get_value(row, column))
 
         logger.info(f"Loaded {len(rows)} rows from {dataset_name!r}")
 
