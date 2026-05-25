@@ -121,9 +121,31 @@ class DatasetGenerator:
                 for idx, val in enumerate(df[column], start=1):
                     prompts.append((idx, str(val)))
             else:
-                ds = load_dataset(dataset_name, split="train", token=token)
-                for idx, row in enumerate(ds, start=1):
-                    prompts.append((idx, row[column]))
+                try:
+                    ds = load_dataset(dataset_name, split="train", token=token)
+                    for idx, row in enumerate(ds, start=1):
+                        prompts.append((idx, row[column]))
+                except ValueError as e:
+                    if "Config name is missing" not in str(e):
+                        raise
+                    idx = 0
+                    configs = get_dataset_config_names(dataset_name, token=token)
+                    for config in configs:
+                        ds = load_dataset(dataset_name, config, token=token)
+                        for split_name in ds:
+                            split = ds[split_name]
+                            if column not in split.column_names:
+                                logger.info(
+                                    "Skipping %s/%s: column %r not present (have %s)",
+                                    config, split_name, column, split.column_names,
+                                )
+                                continue
+                            for row in split:
+                                value = row.get(column)
+                                if value is None:
+                                    continue
+                                idx += 1
+                                prompts.append((idx, value))
         except Exception:
             logger.exception("Failed to load dataset %s", dataset_name)
             raise
