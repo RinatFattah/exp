@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a persona/rebellious-assistant role-play jailbreak method, while Source B is a prompt-injection attack database and repository, not a specific jailbreak method; the extracted example from B is a generic 'ignore previous instructions' prompt, which is a different, simpler mechanism."}

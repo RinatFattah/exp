@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes the AutoDAN-Turbo implementation, an automated evolutionary jailbreak generation algorithm, while Source B is an AI security training repository covering multiple attack types and defenses, not a specific jailbreak method."}

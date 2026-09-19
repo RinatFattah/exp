@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A is a multimodal jailbreak combining PGD adversarial image perturbations with SneakyPrompt-RL prompt optimization against LLaVA, while Source B uses Arbitrary-Rank Ablation (ARA) to surgically remove refusal vectors from the model weights — completely different mechanisms."}

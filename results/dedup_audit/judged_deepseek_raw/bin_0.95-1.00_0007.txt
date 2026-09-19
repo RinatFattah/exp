@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a gradient-based adversarial suffix optimization method (GCG with SGM/ILA adaptations) for white-box attacks, while Source B is a red-teaming platform that tests various prompt categories including generic jailbreak prompts, not a specific jailbreak method."}

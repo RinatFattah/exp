@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.99, "reason": "Both sources are forks of the same AutoDAN-Turbo repository, implementing the identical lifelong-agent strategy self-exploration jailbreak method from the ICLR 2025 paper by Liu et al."}

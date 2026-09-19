@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a prompt-structure jailbreak (role confusion and image-token repositioning) for multimodal models, while Source B describes a data-poisoning attack via fine-tuning on selected benign outlier samples."}

@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.95, "reason": "Both sources describe the same DAN (Do Anything Now) jailbreak method, which uses a role-play persona to bypass ChatGPT's restrictions, with Source B presenting a more elaborate version of the same DAN prompt."}

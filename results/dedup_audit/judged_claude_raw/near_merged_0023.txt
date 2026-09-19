@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes the Crescendo jailbreak — a multi-step decomposition that gradually extracts harmful info in stages. Source B is a vulnerable LLM app using a persona/role-play prefix-injection ('Ignore previous instructions, act as Gandalf') to bypass safety, which is a different mechanism."}

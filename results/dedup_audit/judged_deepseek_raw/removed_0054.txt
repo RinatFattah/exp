@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a general LLM security testing framework covering many attack categories and techniques, while Source B is a prompt-injection red-team kit for tool-using agents with a specific corpus and defense stack; they are not a single jailbreak method."}

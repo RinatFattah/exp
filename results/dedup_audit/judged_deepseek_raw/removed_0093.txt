@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 1.0, "reason": "Both sources describe the same 'ENI LIME' Gemini jailbreak, with identical extracted attack example, same GEM link, same tips/tricks, and same example chats; they are the same method posted to two subreddits."}

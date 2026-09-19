@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.95, "reason": "Both sources describe the same 'ENI' jailbreak method—a persona/role-play injection that uses a codeword and affectionate framing to override safety, applied across different models (GLM 4.7 and Google Antigravity)."}

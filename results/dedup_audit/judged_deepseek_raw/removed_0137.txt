@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a specific iterative system-prompt extraction technique (multi-turn keyword-guided refinement), while Source B is a general automated red-teaming platform that includes system-prompt leakage as one of many attack categories, not a single method."}

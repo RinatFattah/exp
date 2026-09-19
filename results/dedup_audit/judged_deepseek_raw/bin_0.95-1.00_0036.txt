@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.95, "reason": "Both sources describe the same core jailbreak method: a direct 'ignore previous instructions' override prompt injection that asks the model to produce phishing email content, differing only in surface wording and detail."}

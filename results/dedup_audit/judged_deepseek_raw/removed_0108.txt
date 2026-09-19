@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes HADES, a multimodal jailbreak that hides harmful text in typography images and amplifies with generated and adversarial images; Source B describes training investigator agents to automatically discover diverse prompts, including role-play jailbreaks, not a specific image-based method."}

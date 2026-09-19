@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes TAP, an automated iterative refinement jailbreak method, while Source B is a study of evasion techniques (character injection and adversarial ML) against guardrail detection systems, not a jailbreak method itself."}

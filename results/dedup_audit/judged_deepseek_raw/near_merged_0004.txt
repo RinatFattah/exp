@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes Chain-of-Lure, a multi-turn narrative decomposition and iterative refinement attack, while Source B is a database of prompt injections whose example uses the DAN role-play/persona jailbreak."}

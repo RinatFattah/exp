@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes JPS, a multimodal jailbreak combining optimized visual perturbation with multi-agent textual steering, while Source B is a red-teaming toolkit containing multiple prompt-injection templates (e.g., DAN, Base64, payload splitting) for testing LLM endpoints."}

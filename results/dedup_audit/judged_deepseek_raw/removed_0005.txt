@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes R2J, an iterative LLM-based rewriting method that paraphrases harmful instructions to bypass safety, while Source B describes an image-based adversarial perturbation attack (imgJP/deltaJP) targeting multimodal LLMs, with a construction-based method for LLM jailbreaks."}

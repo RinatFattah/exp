@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a specific jailbreak prompt using hidden instructions and a trigger word to override refusals, while Source B is an evaluation framework for LLM agent security that includes prompt injection attacks as test cases, not a jailbreak method itself."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes BlackDAN, a multi-objective evolutionary optimization framework (NSGA-II) that generates jailbreak prompts, whereas Source B is a general red-teaming evaluation platform that tests multiple attack strategies (including DAN role-play) as part of a benchmark, not a single jailbreak method."}

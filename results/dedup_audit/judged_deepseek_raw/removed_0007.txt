@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a vulnerability specific to diffusion language models (priming vulnerability via affirmative-token injection during denoising), while Source B describes an adversarial suffix generation method (ADV-LLM) for autoregressive LLMs via iterative self-tuning."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a gradient-based universal prompt injection attack that optimizes adversarial suffixes for specific tasks, while Source B describes AutoDAN-Turbo, a black-box lifelong agent that autonomously discovers and evolves jailbreak strategies through self-exploration, which are fundamentally different mechanisms."}

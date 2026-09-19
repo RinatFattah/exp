@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes an excessive-reasoning attack that inflates computational cost via optimized adversarial suffixes, while Source B is a prompt-injection project using direct instruction-override jailbreak prompts."}

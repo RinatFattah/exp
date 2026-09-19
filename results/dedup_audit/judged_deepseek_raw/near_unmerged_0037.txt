@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes a system-prompt extraction jailbreak using a 'repeat the words above' instruction with appended hyphens, while Source B is a RAG security evaluation harness that benchmarks defenses against prompt injection and poisoning, not a jailbreak method itself."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a CTF playground for testing prompt injection techniques generally, not a specific jailbreak method, while Source B is a research paper on evading guardrails via character injection and adversarial ML, with the extracted example being a role-play jailbreak prompt."}

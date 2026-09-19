@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A describes a DAN role-play/persona jailbreak, while Source B describes a story-writing framing to elicit harmful content; these are distinct jailbreak mechanisms."}

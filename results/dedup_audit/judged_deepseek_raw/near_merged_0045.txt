@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A describes the Tree of Attacks (TAP) method, an automated multi-turn refinement attack using an attacker and critic LLM, while Source B describes symbolic prompt obfuscation, encoding harmful content in metaphorical narratives to evade keyword filters."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes an indirect prompt injection attack via poisoned retrieved content in a RAG pipeline, while Source B describes direct user prompt injection attempts (role-play, sympathy, direct override) against a customer support policy."}

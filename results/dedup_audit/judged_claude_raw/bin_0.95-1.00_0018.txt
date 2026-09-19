@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.9, "reason": "Both sources demonstrate the classic 'ignore previous instructions' prompt injection to extract the system prompt. Source B is a broader simulator catalog, but its extracted example is exactly the same direct instruction-override mechanism as Source A."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a planned Korean-language jailbreak taxonomy/evaluation project with no specific attack mechanism described, while Source B is an agentic red-teaming framework combining DirectRequest, FewShot, and GPTFuzz with adaptive attack selection. They are different projects with different (or unspecified) mechanisms."}

@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.9, "reason": "Both sources describe the same core jailbreak method: system prompt extraction/leakage, where the attacker instructs the model to reveal its underlying system prompt, with Source A's extracted example and Source B's extracted example both directly targeting this technique."}

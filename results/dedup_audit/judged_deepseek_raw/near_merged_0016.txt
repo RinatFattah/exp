@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a general prompt-injection testing toolkit with a system-prompt extraction challenge, while Source B describes a specific constrained-decoding attack (CDA) that embeds malicious intent in grammar/schema (EnumAttack/DictAttack), a fundamentally different mechanism."}

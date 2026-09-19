@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.85, "reason": "Source A is a defense/security platform (Neuro-Sentry) that simulates and detects prompt injection attacks, not a jailbreak method itself. Source B is a red-team guide cataloging many attack techniques (direct/indirect prompt injection, encoding, roleplay, etc.), so they are not the same single method."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes AutoDAN, an interpretable gradient-based adversarial suffix optimization that generates readable jailbreak prompts token-by-token. Source B describes Anamorpher, an image-scaling attack that hides multi-modal prompt injections revealed only after downscaling — a completely different mechanism."}

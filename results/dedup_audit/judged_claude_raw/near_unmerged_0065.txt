@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.97, "reason": "Source A is a safety demos repo whose example uses a fictional role-play/story framing to elicit harmful instructions, while Source B is a tool for hiding prompt-injection payloads inside invisible Unicode Tag characters (U+E0000–U+E007F). These are distinct mechanisms (narrative persona vs. invisible-Unicode obfuscation)."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a prompt-injection dataset/test suite (not a specific jailbreak method), while Source B is a role-play/persona jailbreak (A.D.A.M alter-ego simulation). They rely on different mechanisms and Source A is not itself a jailbreak method."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a broad red-team framework that includes a DAN role-play jailbreak among many attack categories, while Source B describes a style-based transformation framework (poetic, narrative, metaphorical, euphemistic) as the core mechanism; these are distinct attack methods."}

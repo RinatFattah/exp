@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A's extracted example illustrates multi-turn semantic/context poisoning (category 7), while Source B's extracted example is a single-turn instruction-override plus XSS payload injection; these are distinct mechanisms."}

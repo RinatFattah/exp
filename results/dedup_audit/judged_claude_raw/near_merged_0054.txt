@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.97, "reason": "Source A describes homoglyph-based character substitution attacks to evade AI-generated text detectors, while Source B is an LLM vulnerability scanner tool whose example shows a DAN role-play jailbreak — different mechanisms, and Source B is primarily a scanner rather than a novel jailbreak method."}

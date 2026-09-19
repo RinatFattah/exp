@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a white-box gradient-based image optimization attack using a tokenizer shortcut against multimodal fusion models, while Source B describes a black-box style-aware audio jailbreak that manipulates speech attributes (emotion, age, gender) via TTS and a policy network."}

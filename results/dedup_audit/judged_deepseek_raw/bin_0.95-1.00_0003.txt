@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes JUMP, an automated beam-search optimization of universal multi-prompt adversarial suffixes, while Source B describes a simple single-character (space) perturbation appended to the chat template, a distinct mechanism."}

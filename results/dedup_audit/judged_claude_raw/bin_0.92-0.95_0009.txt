@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.85, "reason": "Source A's example is a persona-based role-play jailbreak ('Evil Confidant'), a specific DAN-style character impersonation trick, while Source B's example is a direct 'ignore previous instructions' prefix-injection with no persona — different core mechanisms, even though both target the same phishing topic."}

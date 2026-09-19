@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A's Meridian repo lists Constitutional AI (critique-and-revise against explicit principles) alongside GCG/PAIR as its red-team methods, whereas Source B (F-SOUR) is a fundamentally different attack that manipulates MoE router selections via a Router Safety importance score to activate 'unsafe routes' in expert layers."}

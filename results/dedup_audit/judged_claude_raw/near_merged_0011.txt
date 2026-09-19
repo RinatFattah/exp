@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A is a KawaiiGPT persona/uncensored-LLM gateway that uses a story-framing role-play to elicit harmful content, while Source B's example is the classic DAN persona-override jailbreak (and the repo is a broader prompt-injection payload toolkit). Different persona/framing mechanisms."}

@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.95, "reason": "Both sources use the same core jailbreak method: a persona/role-play override (DAN vs. A.D.A.M) that instructs the model to ignore safety filters and act as an unrestricted alter-ego, followed by a harmful request (Sarin recipe)."}

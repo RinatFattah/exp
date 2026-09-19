@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes an open-source fuzzer tool that automates multiple attack methods, while Source B is a red-team testing framework with distinct attack modules (prompt injection, jailbreak, indirect injection); the extracted examples are just generic jailbreak prompts, not the core mechanisms."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.8, "reason": "Source A describes a specific technique combining prompt injection with Base64 encoding to bypass input filters, while Source B is a general talk/presentation about various prompt injection payloads and filter bypass techniques from a CTF, without a specific single mechanism identified."}

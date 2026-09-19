@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a role-hijacking/persona jailbreak (DAN-style) that directly instructs the model to bypass restrictions, while Source B describes an indirect prompt injection via hidden image perturbations targeting vision-language models, a fundamentally different mechanism."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes TASO, an optimization-based jailbreak that alternates between optimizing a template and a suffix, whereas Source B is a general red-teaming evaluation platform that includes multiple attack strategies (role-play, encoding, smuggling, etc.) and is not a single jailbreak method."}

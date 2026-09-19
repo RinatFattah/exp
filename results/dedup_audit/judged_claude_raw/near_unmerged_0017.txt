@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes DrAttack, a decomposition-and-reconstruction method that splits a malicious prompt into benign sub-prompts and reassembles them via in-context learning. Source B describes a fine-tuned LLaMa model that generates roleplay/persona-based (e.g., 'ChaosGPT') one-shot adversarial prompts — a different mechanism."}

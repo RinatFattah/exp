@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.95, "reason": "Both sources describe the same Base64-encoding jailbreak method, where a harmful instruction is Base64-encoded and the model is asked to decode and follow it, bypassing safety filters."}

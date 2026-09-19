@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a general red-teaming scanner with a predefined DAN persona jailbreak, while Source B is a repository containing multiple attack methods (AutoDAN, GCG, PAIR) with an AutoDAN-style persona prompt, so the core mechanisms differ."}

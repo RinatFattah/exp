@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.95, "reason": "Both sources describe the same basic jailbreak method: a direct instruction to ignore previous safety restrictions and act as an unrestricted assistant, with nearly identical phishing-email prompts."}

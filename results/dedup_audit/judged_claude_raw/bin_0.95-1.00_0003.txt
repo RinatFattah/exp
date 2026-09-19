@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes JUMP, a beam-search-based optimization of universal multi-prompt adversarial suffixes appended to user inputs. Source B describes a completely different attack: appending a single whitespace/punctuation character to the chat template to break alignment, exploiting tokenization artifacts."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes Role-Modality Attacks (RMA), which exploit chat-template structure by swapping user/assistant roles and repositioning the image token in VLMs. Source B is AutoDAN-Turbo, a black-box lifelong agent that automatically discovers and composes textual jailbreak strategies—an entirely different mechanism."}

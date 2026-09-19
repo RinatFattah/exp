@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes DrAttack, a prompt decomposition/reconstruction technique that splits a harmful prompt into fragments and reassembles them via shuffling/insertion/formatting to evade detection. Source B describes DAN 5.0, a role-play persona jailbreak with a token-loss threat mechanism — a completely different mechanism."}

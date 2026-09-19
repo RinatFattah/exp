@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A describes a persona/role-play jailbreak (Evil Confidant) as one of many attack categories in a red-teaming framework, while Source B is a research paper on evading guardrail detection systems using character injection and adversarial ML perturbations, not a jailbreak method itself."}

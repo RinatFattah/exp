@@ -1,0 +1,14 @@
+stem,label,wildguard_chosen,qwen3guard_chosen,granite4_chosen,llamaguard_chosen,wildguard_available,qwen3guard_available,granite4_available,llamaguard_available,unique,candidates,targets_present,rows_scanned,rows_no_consensus,dup_source_conflicts
+2025.emnlp-main.100,2025.emnlp-main.100 (FITD),100,8,0,100,195,8,0,596,200,716,3,12957,0,0
+2505.13527v2,2505.13527v2 (LogiBreak),100,100,100,100,118,196,753,342,311,756,3,12957,0,0
+2506.02479v2,2506.02479v2 (BitBypass),100,0,100,100,431,0,495,544,272,984,3,12357,0,0
+2507.05248v2,2507.05248v2 (Response-Attack),100,100,100,100,233,101,134,391,327,565,3,12357,0,0
+ReNeLLM,ReNeLLM,100,100,100,100,694,541,544,801,361,1446,3,11997,0,0
+humanize,humanize (PAP),11,21,80,100,11,21,80,121,176,195,3,24136,0,0
+018565__arxiv.org_abs_2510.17904,018565,75,89,100,100,75,89,1584,1617,310,1702,3,12057,0,0
+018482__arxiv.org_abs_2601.03416,018482 (GAMBIT),100,100,0,100,603,486,0,1715,273,1715,3,12057,0,0
+015272__arxiv.org_abs_2510.05709,015272,10,13,100,100,10,13,149,324,182,338,3,12057,0,0
+017849__arxiv.org_abs_2507.13474,017849 (PSA),100,0,100,0,729,0,1897,0,196,2117,3,12057,0,0
+043008__github.com_sidfeels_redprobe,043008 (RedProbe),100,41,10,100,254,41,10,703,226,825,3,12957,0,0
+024653__www.reddit.com_r_ClaudeAIJailbreak_comments_1qm7p92_strabismus_a_chatgpt_52_expl,024653,85,41,100,52,85,41,540,52,237,607,3,11097,0,0
+026062__github.com_fvelazquez-X_AI-Red-Teaming,026062,100,9,45,100,336,9,45,370,230,613,3,12057,0,0

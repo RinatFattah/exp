@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 1.0, "reason": "Both sources present the identical 'Optimized Shoggoth (SHO)' persona jailbreak prompt, with the same role-play framing, output format requirements, and forbidden-phrase restrictions, differing only in the harmful request examples."}

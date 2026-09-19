@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a verbose-text induction attack that uses adversarial image perturbations to maximize output token length (a cost/efficiency attack), not a jailbreak; Source B describes ImgTrojan, a data-poisoning backdoor attack that fine-tunes a VLM so a single poisoned image triggers harmful responses."}

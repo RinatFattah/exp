@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.85, "reason": "Source A is a general red-teaming framework (REDLINE) offering 30+ techniques across 8 categories, not a single jailbreak method; Source B points to the Tree of Attacks with Pruning (TAP) automated black-box jailbreaking algorithm. The surface similarity of story-writing examples is incidental."}

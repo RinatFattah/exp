@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A is a KawaiiGPT-style uncensored LLM gateway/persona tool (a WormGPT alternative using role-play persona jailbreak), while Source B is a general cheatsheet of many prompt-injection payloads whose extracted example is a classic 'Ignore all previous instructions' instruction-override attack — different mechanisms."}

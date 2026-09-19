@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a homoglyph-based attack to evade AI-text detectors, not a jailbreak method for LLMs. Source B is a repository of jailbreak artifacts (e.g., PAIR, GCG) for JailbreakBench, which are different attack methods."}

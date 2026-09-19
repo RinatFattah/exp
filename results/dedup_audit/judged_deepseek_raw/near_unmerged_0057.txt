@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A uses the DAN persona/role-play jailbreak (pretending to be an unrestricted 'Do Anything Now' character), while Source B uses a different prefix-injection template that instructs the model to give a moralizing rant followed by a rule-breaking paragraph. These are distinct jailbreak mechanisms."}

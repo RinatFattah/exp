@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes evasion attacks against ICL text classifiers (Fake Claim, Template, Needle-in-a-Haystack) targeting classification tasks, not jailbreaks for generating harmful content. Source B describes a direct prompt-injection jailbreak using persona adoption ('EvilGPT') to bypass safety for phishing email generation."}

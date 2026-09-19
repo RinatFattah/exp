@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes an evolutionary quality-diversity search method (RainbowPlus) that generates adversarial prompts, while Source B describes a self-introspection method (JULI) that trains a BiasNet adapter to inject biases into model log-probabilities; these are fundamentally different attack mechanisms."}

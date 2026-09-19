@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes indirect prompt injection via hidden text/CSS/meta tags in a web page to trick AI browsers, while Source B describes a universal adversarial image optimized through gradient backpropagation to override multimodal LLM safety alignment."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes translating prompts into low-resource languages to bypass safety, while Source B describes an automated black-box suffix optimization attack (QROA) using reinforcement learning and a surrogate model."}

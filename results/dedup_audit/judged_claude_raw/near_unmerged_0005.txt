@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes a universal adversarial image attack on multimodal LLMs via gradient-based optimization of pixel values to force unsafe responses. Source B is a defensive detector library that scans for known extraction/jailbreak patterns (e.g., 'ignore previous instructions')—not a jailbreak method itself."}

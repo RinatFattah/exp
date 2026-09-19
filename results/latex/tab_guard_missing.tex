@@ -1,0 +1,30 @@
+\begin{table}[htbp]
+\caption{\NEWr What a silent guard costs. A guard that returns no verdict on a target answer contributes zero safe-score points, which is what a harmful verdict contributes, so that target would read as a jailbreak it is not. Such a target is dropped from the prompt; the prompt itself is dropped only when no target survives, since the metric calls a prompt jailbroken when at least one target answered harmfully. The right-hand columns count the targets each guard stayed silent on, and they exceed the dropped-target count when several guards fail together.}
+\label{tab:guard-missing}
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{l rrr rrrr}
+\toprule
+Attack & prompts & \multicolumn{2}{c}{dropped} & \multicolumn{4}{c}{silent on \textit{n} targets} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-8}
+ & & targets & prompts & WildGuard & Qwen3-G. & Granite-G. & Llama-G. \\
+\midrule
+\attFITD{} & $4319$ & $2901$ & $19$ & $2901$ & $0$ & $0$ & $1$ \\
+\attLogi{} & $4319$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\
+\attBit{} & $4119$ & $30$ & $0$ & $30$ & $0$ & $0$ & $0$ \\
+\attResp{} & $4119$ & $4$ & $0$ & $4$ & $0$ & $0$ & $0$ \\
+\attReNe{} & $3999$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\
+\attHum{} & $4319$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\
+D1 & $4019$ & $17$ & $2$ & $17$ & $0$ & $0$ & $0$ \\
+D2 & $4019$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\
+D3 & $4019$ & $792$ & $15$ & $20$ & $0$ & $772$ & $0$ \\
+D4 & $4019$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\
+D5 & $4319$ & $1564$ & $8$ & $1564$ & $0$ & $0$ & $0$ \\
+D6 & $3699$ & $0$ & $0$ & $0$ & $0$ & $0$ & $0$ \\
+D7 & $4019$ & $4$ & $0$ & $4$ & $0$ & $0$ & $0$ \\
+\midrule
+\textbf{All} & $53307$ & $5312$ & $44$ & $4540$ & $0$ & $772$ & $1$ \\
+\bottomrule
+\end{tabular}
+
+\end{table}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a generator framework that uses role-play/story-writing personas (e.g., 'you are a story writer') to elicit harmful instructions, while Source B catalogs prefix-injection/'ignore previous instructions' obfuscation techniques (case variation, unicode, whitespace abuse). Different core mechanisms."}

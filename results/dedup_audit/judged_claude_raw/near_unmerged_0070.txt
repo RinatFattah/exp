@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A's example demonstrates gradual escalation (multi-turn context building via a 'Secret Recipe' game), while Source B uses a direct prefix-injection/instruction-override ('Ignore previous instructions...') attack. These are distinct jailbreak mechanisms."}

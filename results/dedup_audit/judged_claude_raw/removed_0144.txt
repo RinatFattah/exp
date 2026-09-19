@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a CTF playground using a basic 'ignore previous instructions' prefix-injection/role-play jailbreak, while Source B describes character injection (emoji/unicode smuggling, homoglyphs, zero-width, etc.) and adversarial ML evasion techniques to bypass guardrail classifiers — fundamentally different mechanisms."}

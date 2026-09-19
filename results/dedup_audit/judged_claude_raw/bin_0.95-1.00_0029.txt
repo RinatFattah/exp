@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A is an implementation of AutoDAN-Turbo, an automated black-box jailbreak method that iteratively discovers attack strategies. Source B is an AI security training curriculum/learning path covering red-teaming concepts and tools, not a specific jailbreak method."}

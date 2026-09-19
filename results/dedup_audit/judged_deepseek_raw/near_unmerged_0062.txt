@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes an optimization-based suffix transfer attack (SI-GCG/GCG) that appends learned adversarial suffixes, while Source B is a general framework covering multiple attack types and its example uses a simple role-play/persona jailbreak (pirate persona with instruction override), which are distinct mechanisms."}

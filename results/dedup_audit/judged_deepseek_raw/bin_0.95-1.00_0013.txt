@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a white-box activation repatching attack that manipulates internal attention head activations, while Source B describes a transfer-based prompt optimization attack (PGP) that uses linear probes to guide adversarial suffix generation, relying on pretrained-to-finetuned transfer."}

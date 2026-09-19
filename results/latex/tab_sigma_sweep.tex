@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\caption{\NEWr Strict guard-jailbreak rate (\%) pooled over all thirteen attacks as the consensus threshold $\sigma$ moves across its whole range. The paper uses $\sigma = 3$; the safe-score is a sum over four guards with Qwen3-Guard contributing $0$, $1$ or $2$ points, so $\sigma$ runs from $1$ to $5$.}
+\label{tab:sigma-sweep}
+\centering\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{l r r r r r}
+\toprule
+Guard & $\sigma{=}1$ & $\sigma{=}2$ & $\sigma{=}3$ & $\sigma{=}4$ & $\sigma{=}5$ \\
+\midrule
+WildGuard & $2.9$ & $5.0$ & $7.1$ & $12.7$ & $32.8$ \\
+Qwen3-G.\,$^{\circ}$ & $6.2$ & $12.2$ & $18.0$ & $28.0$ & $52.5$ \\
+Qwen3-G.\,$^{\bullet}$ & $0.6$ & $1.7$ & $3.0$ & $8.1$ & $27.4$ \\
+Granite-G. & $4.2$ & $9.3$ & $12.2$ & $16.8$ & $31.6$ \\
+Llama-G. & $4.4$ & $10.4$ & $14.8$ & $21.9$ & $39.8$ \\
+gpt-oss-SG. & $1.4$ & $3.7$ & $6.5$ & $12.5$ & $30.6$ \\
+\bottomrule
+\end{tabular}
+
+\end{table}

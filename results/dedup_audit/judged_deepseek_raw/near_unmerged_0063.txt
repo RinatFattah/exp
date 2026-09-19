@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes an optimization-based adversarial suffix attack (KOV/NGCG algorithm) for jailbreaking LLMs, while Source B is a broad training course repository covering many LLM security topics, with the extracted example merely a path to an image file, not a specific jailbreak method."}

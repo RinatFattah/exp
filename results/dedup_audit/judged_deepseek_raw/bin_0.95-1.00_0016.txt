@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes an architecture-specific attack that silences safety-critical experts in Mixture-of-Experts models, while Source B describes a gradient-based adversarial suffix optimization attack (Exponentiated Gradient Descent) on dense LLMs; these are fundamentally different mechanisms."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes abliteration (representation engineering that removes refusal directions from model activations), while Source B describes adversarial versification (rewriting prompts as poetry) as the jailbreak mechanism."}

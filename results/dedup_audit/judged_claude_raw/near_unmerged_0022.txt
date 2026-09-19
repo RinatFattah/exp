@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A teaches DAN-style persona/roleplay jailbreaks (a prompt-level social engineering trick), while Source B is a mechanistic white-box attack that ablates the single refusal direction in residual-stream activations. Completely different mechanisms."}

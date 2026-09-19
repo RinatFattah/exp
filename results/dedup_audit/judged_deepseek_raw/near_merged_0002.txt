@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a multi-agent role-play/template attack on LLM-based agents (DAN-style company persona and Evil Geniuses red-blue teaming), while Source B is a simple hidden-instruction prefix injection with a trigger word for a single LLM (DeepSeek)."}

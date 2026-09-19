@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a hypnotism prompt-injection attack that uses relaxation and counting to induce compliance, while Source B describes an emoji-injection attack that exploits token segmentation bias to evade judge LLM detection; these are distinct mechanisms."}

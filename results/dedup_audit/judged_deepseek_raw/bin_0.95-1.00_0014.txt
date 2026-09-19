@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a white-box activation repatching attack that manipulates internal attention heads, while Source B describes AutoDAN-Turbo, a black-box agent-based strategy self-exploration method that generates jailbreak prompts."}

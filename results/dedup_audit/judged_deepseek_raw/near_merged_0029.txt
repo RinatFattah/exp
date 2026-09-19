@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A is a general catalog of many jailbreak methods (including a DAN persona variant), while Source B is an experimental framework for evaluating prompt injection attacks and defenses, not a specific jailbreak method."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes the RED QUEEN ATTACK, a multi-turn concealment jailbreak that frames harmful requests as protective scenarios, while Source B is an evaluation framework for LLM agent security that tests prompt injection, tool poisoning, and persuasion attacks, not a jailbreak method itself."}

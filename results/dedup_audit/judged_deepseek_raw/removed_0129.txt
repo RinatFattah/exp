@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a general red-teaming platform that tests various attacks including a simple phishing prompt, while Source B describes a specialized uncensored LLM tool (FraudGPT) with multiple offensive modules, not a specific jailbreak method."}

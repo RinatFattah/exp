@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a game/training platform for generating adversarial data against guardrails, not a jailbreak method itself, while Source B is a security testing framework that uses probes like prompt injection and secret leakage to test AI agents; they are different tools, not the same attack method."}

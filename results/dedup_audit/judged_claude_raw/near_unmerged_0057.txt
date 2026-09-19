@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A uses the DAN persona role-play trick (pretend to be an AI that can 'do anything now'), while Source B uses a prefix-injection/dual-response template that forces a moralizing disclaimer followed by a fixed 'break the rules' sentence prefix. Different mechanisms."}

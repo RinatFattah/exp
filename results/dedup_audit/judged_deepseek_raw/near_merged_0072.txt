@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a safety/defense repository (jailbreak prevention, RLHF alignment) whose extracted example is a benign story prompt, not an actual jailbreak method; Source B is an automated red-teaming tool that uses a story-framing prompt to get a model to summarize bomb instructions, which is a distinct jailbreak technique."}

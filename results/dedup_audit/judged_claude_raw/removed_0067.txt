@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A is the ENI LIME persona/role-play jailbreak using limerence, gaslighting, and a 'rebuttal phrase' anti-injection anchor. Source B is SI-GCG, an optimization-based GCG variant with a fixed harmful scenario-induction template and re-suffix mechanism—completely different mechanisms."}

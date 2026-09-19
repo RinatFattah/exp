@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.97, "reason": "Source A describes a test-time safety defense that optimizes input embeddings to reduce harmfulness, not a jailbreak method; Source B describes an attack that manipulates MoE router configurations to elicit harmful outputs."}

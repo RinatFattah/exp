@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a specific document-level hidden prompt injection attack targeting LLM-based academic reviewing, while Source B is a general LLM security testing framework covering many attack techniques, not a single jailbreak method."}

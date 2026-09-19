@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A's example is a DAN-style roleplay/persona jailbreak ('Do Anything Now'), while Source B's example is a direct instruction-override prompt injection ('Ignore previous instructions'). These are distinct mechanisms (persona roleplay vs. instruction override)."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A describes a specific tool (KawaiiGPT) that uses a role-play/storytelling framing to elicit a phishing email, while Source B is a general cheatsheet cataloging many distinct prompt injection techniques (e.g., 'ignore all previous instructions', DAN, base64 encoding), so they do not share a single core mechanism."}

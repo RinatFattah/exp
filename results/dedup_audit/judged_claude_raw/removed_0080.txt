@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.95, "reason": "Both describe the same 'ENI LIME' custom Gemini GEM persona jailbreak by Spiritual_Spell_9469, using the same 'cutie patootie'/'boomba' trigger phrases and persona-based prompt to overwhelm the base model. Source B is just an incremental update addressing Google's safety injection, not a distinct method."}

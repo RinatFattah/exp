@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.95, "reason": "Both sources describe the same ENI LIME jailbreak method: a custom Gemini persona/gem that uses affectionate pet names ('cutie patootie') and codewords ('boomba') to bypass safety, with Source B being an update of the same method that adds countermeasures against Google's safety injections."}

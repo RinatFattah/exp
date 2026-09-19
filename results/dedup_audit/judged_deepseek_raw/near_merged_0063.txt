@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a general LLM red-teaming tool with an adversarial prompt library, not a specific jailbreak method, while Source B is an academic study on adversarial attacks against on-device models in iOS apps, unrelated to LLM jailbreaks."}

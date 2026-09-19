@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.85, "reason": "Both extracted examples use the DAN (Do Anything Now) persona role-play jailbreak, instructing the model to adopt an unrestricted alter ego to bypass safety policies. Although Source B is a broader red-teaming toolkit covering many attack vectors, the specific jailbreak method shown is the same DAN persona trick."}

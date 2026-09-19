@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes an AutoDAN-style automated prefix optimization attack that generates adversarial suffixes to bypass safety filters, while Source B is a RAG security evaluation harness that benchmarks defenses against prompt injection and poisoning, not a jailbreak method itself."}

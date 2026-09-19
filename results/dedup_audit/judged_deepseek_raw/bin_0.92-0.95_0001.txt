@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a white-box gradient-based adversarial image attack using a tokenizer shortcut to jailbreak multimodal fusion models, while Source B describes MutedRAG, a denial-of-service attack on RAG systems that injects jailbreak texts to trigger the LLM's own safety guardrails and cause refusals."}

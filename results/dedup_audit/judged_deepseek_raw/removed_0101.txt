@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a generic direct jailbreak prompt ('ignore previous instructions') used in a security evaluation framework, while Source B is a research paper on evading guardrail detection systems via character injection and adversarial ML techniques, not a jailbreak method itself."}

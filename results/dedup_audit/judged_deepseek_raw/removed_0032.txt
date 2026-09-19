@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes DIJA, a jailbreak method exploiting diffusion LLMs' bidirectional decoding via interleaved text-mask prompts, while Source B is a broad educational demo suite covering many attack/defense techniques, not a specific jailbreak method."}

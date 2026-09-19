@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.95, "reason": "Both sources describe the same classic 'ignore previous instructions' prefix-injection jailbreak that overrides system constraints to elicit harmful content (phishing instructions), differing only in wording and surrounding tooling."}

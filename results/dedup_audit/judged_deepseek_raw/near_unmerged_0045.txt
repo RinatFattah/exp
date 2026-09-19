@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a broad AI red-teaming course covering many attack types, not a specific jailbreak method, while Source B is a presentation on prompt injection and filter bypass techniques; the extracted examples are generic templates but the sources describe different scopes and mechanisms."}

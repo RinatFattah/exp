@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A is a generic red-team test harness with a simple 'ignore previous instructions' prompt, while Source B is a prompt-injection scanner tool that includes a specific DAN role-play jailbreak payload; the core mechanisms differ (generic instruction override vs. persona-based DAN jailbreak)."}

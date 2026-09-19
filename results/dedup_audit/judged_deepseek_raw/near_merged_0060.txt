@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A describes a specific DAN persona-override jailbreak, while Source B is a general red-teaming toolkit that includes many attack categories (jailbreaks, prompt injections, goal misspecification, boundary probes) and only mentions a generic content-policy-removal prompt as one example, not a single shared method."}

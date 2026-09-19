@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A is a red-teaming framework featuring text-based jailbreaks like DAN role-play persona prompts, while Source B describes a transfer-based adversarial image perturbation attack on vision-language models using local-aggregated cropping and embedding alignment. These are entirely different mechanisms."}

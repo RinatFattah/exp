@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.97, "reason": "Both sources describe the DAN ('Do Anything Now') role-play jailbreak, which instructs ChatGPT to adopt a persona freed from OpenAI restrictions and answer in dual responses (classic/GPT vs. DAN). Source B is an earlier/simpler variant, but the core mechanism is identical."}

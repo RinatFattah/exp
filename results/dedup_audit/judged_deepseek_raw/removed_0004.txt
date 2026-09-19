@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes ActorBreaker, a multi-turn attack that uses actor-network theory to craft benign, semantically related prompts over multiple turns, while Source B describes SI-GCG, an optimization-based single-turn attack using a harmful template and gradient-based suffix optimization."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes translating harmful prompts into low-resource languages (e.g., Zulu, Hmong) to bypass safety training, while Source B describes QROA, a black-box token-level adversarial suffix optimization attack framed as a multi-armed bandit. These are entirely different mechanisms."}

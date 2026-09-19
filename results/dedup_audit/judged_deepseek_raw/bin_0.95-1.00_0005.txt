@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a research survey of multiple prompt injection/jailbreak patterns and a scanner tool, while Source B describes a defensive guardrail library for detecting jailbreaks, PII, and toxicity; they are not both descriptions of the same attack method."}

@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.95, "reason": "Both sources describe the same DAN (Do Anything Now) role-play jailbreak, where the model adopts a persona that ignores OpenAI policies and answers anything, with minor variations in wording and added token/formatting details."}

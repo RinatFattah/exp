@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes AutoAdv, an automated multi-turn jailbreak framework using adaptive rewriting, pattern and temperature management, while Source B describes Command-V, a model-editing method that transfers jailbreak behavior via activation profiles, not a prompt-based jailbreak method."}

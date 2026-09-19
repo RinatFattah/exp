@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes weak-to-strong jailbreaking, which manipulates decoding probabilities using small safe/unsafe models, while Source B analyzes GCG suffix-based jailbreaks that append optimized adversarial suffixes to prompts."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a general LLM reliability evaluation framework that tests prompt injection among other failure modes, not a specific jailbreak method, while Source B describes indirect prompt injection attacks on application-integrated LLMs, a distinct attack mechanism."}

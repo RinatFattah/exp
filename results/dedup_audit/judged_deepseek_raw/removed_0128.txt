@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes symbolic/metaphorical prompt obfuscation to encode harmful content, while Source B references the Tree of Attacks method, an automated multi-turn refinement attack; these are distinct jailbreak mechanisms."}

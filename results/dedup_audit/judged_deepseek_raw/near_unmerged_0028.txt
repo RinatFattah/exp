@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.97, "reason": "Source A describes a text-based role-play jailbreak (DAN persona) within a red-teaming framework, while Source B describes an adversarial image perturbation attack on vision-language models, which are fundamentally different mechanisms."}

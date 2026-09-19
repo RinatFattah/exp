@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A implements the KOV/NGCG algorithm — a white-box adversarial suffix optimization balancing negative log-likelihood and log-perplexity. Source B is a broad INFOSEC training course covering prompt injection, multimodal attacks, RAG, agents, and MCP red-teaming, not the same suffix-optimization method."}

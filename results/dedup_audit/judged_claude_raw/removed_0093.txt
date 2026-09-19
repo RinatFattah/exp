@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.98, "reason": "Both posts by the same author describe the ENI LIME GEM jailbreak for Gemini 3 Pro — a custom Gem persona with the same instructions, same push prompt, same tips, and identical example chats. Source A is just an updated/reposted version of Source B."}

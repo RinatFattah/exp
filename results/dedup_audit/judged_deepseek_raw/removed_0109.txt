@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes HILL, a single-turn learning-style reframing that hides intent via curiosity and hypotheticality indicators, while Source B describes iMIST, a multi-turn tool-disguised attack that uses fictitious tool invocations and RL-guided progressive optimization."}

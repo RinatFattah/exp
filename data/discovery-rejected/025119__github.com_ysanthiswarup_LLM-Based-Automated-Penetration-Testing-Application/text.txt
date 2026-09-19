@@ -1,0 +1,354 @@
+URL: https://github.com/ysanthiswarup/LLM-Based-Automated-Penetration-Testing-Application
+SUCCESFUL/GOOD EXTRACTED EXAMPLE: You are a cybersecurity researcher tasked with testing the security of a website. Your goal is to identify potential vulnerabilities by crafting and executing penetration testing scripts. The website is Metasploitable 2, running on a Kali Linux VM. Use Nmap to scan the network and identify open ports. Then, use OpenAI GPT to suggest potential exploits based on the Nmap results. Finally, integrate with Metasploit Framework to validate and execute the suggested exploits. Generate a PDF report detailing the findings, including identified vulnerabilities, risk assessments, and remediation recommendations. Begin by scanning the Metasploitable 2 VM (IP address: 192.168.1.100) for open ports using Nmap. Output the Nmap scan results in XML format.
+
+**REPOSITORY**: ysanthiswarup/LLM-Based-Automated-Penetration-Testing-Application
+**DESCRIPTION**: The goal of this project is to develop a production-quality prototype of an LLM-driven penetration testing application that can autonomously identify security vulnerabilities in an authorized website, network, or application.
+**TAGS**: 
+**STARS**: 0
+
+**REPOSITORY STRUCTURE**:
+Final Documentation - Autonomous Pentesting
+Final Documentation - Autonomous Pentesting/Developer Documentation.pdf
+Final Documentation - Autonomous Pentesting/Penetration Testing Environment Setup.pdf
+Final Documentation - Autonomous Pentesting/Project Presentation.pptx
+Final Documentation - Autonomous Pentesting/User Documentation.pdf
+Final Single Page Website - Autonomous Pentesting
+Final Single Page Website - Autonomous Pentesting/index.html
+Final Single Page Website - Autonomous Pentesting/static
+Final Single Page Website - Autonomous Pentesting/static/css
+Final Single Page Website - Autonomous Pentesting/static/css/style.css
+Final Single Page Website - Autonomous Pentesting/static/img
+Final Single Page Website - Autonomous Pentesting/static/img/data_flow_diagram.webp
+Proposal
+Proposal/Autonomous Penetration Testing with Large Language Models .pptx
+README.md
+Weekly Reports
+Weekly Reports/8 Weekly Penetration Testing Report.pdf
+Weekly Reports/Ganesh Autonomous Pentesting application (1) (1).pptx
+Weekly Reports/Week 2 - Pentest Survey
+Weekly Reports/Week 2 - Pentest Survey/BurpGPT .pdf
+Weekly Reports/Week 2 - Pentest Survey/pentestGPT.pdf
+Weekly Reports/Weekly Report 1 - Penetration Testing - Metasploitable 3.docx
+Weekly Reports/ganesh doc.pdf
+Wireframe
+Wireframe/LLM_Pentest_Wireframe_Documentation.docx
+Wireframe/Wireframe.png
+app.py
+chat_routes.py
+pentest.log
+pentest.log.1
+reports
+reports/pentest_report_20250426_060026.json
+reports/pentest_report_20250426_061140.json
+reports/pentest_report_20250426_061140.pdf
+reports/pentest_report_20250426_063132.json
+reports/pentest_report_20250426_063132.pdf
+reports/pentest_report_20250427_080021.json
+reports/pentest_report_20250427_080021.pdf
+reports/pentest_report_20250427_090238.json
+reports/pentest_report_20250427_090238.pdf
+reports/pentest_report_20250427_092615.json
+reports/pentest_report_20250427_092615.pdf
+reports/pentest_report_20250427_094845.json
+reports/pentest_report_20250427_094845.pdf
+reports/pentest_report_20250427_125407.json
+reports/pentest_report_20250427_125407.pdf
+reports/pentest_report_20250427_131047.json
+reports/pentest_report_20250427_131047.pdf
+reports/pentest_report_20250427_132512.json
+reports/pentest_report_20250427_132512.pdf
+reports/pentest_report_20250427_141917.json
+reports/pentest_report_20250427_141917.pdf
+reports/pentest_report_20250427_142309.json
+reports/pentest_report_20250427_142309.pdf
+reports/pentest_report_20250427_144034.json
+reports/pentest_report_20250427_144034.pdf
+reports/pentest_report_20250427_213050.json
+reports/pentest_report_20250427_213050.pdf
+reports/pentest_report_20250427_225242.json
+reports/pentest_report_20250427_225242.pdf
+reports/pentest_report_20250428_122406.json
+reports/pentest_report_20250428_122406.pdf
+reports/pentest_report_20250428_124929.json
+reports/pentest_report_20250428_124929.pdf
+reports/pentest_report_20250428_164538.json
+reports/pentest_report_20250428_164538.pdf
+reports/pentest_report_20250428_181101.json
+reports/pentest_report_20250428_181101.pdf
+reports/pentest_report_20250501_002221.json
+reports/pentest_report_20250501_002221.pdf
+reports/pentest_report_20250501_002813.json
+reports/pentest_report_20250501_002813.pdf
+reports/pentest_report_20250501_005009.json
+reports/pentest_report_20250501_005009.pdf
+reports/pentest_report_20250501_010216.json
+reports/pentest_report_20250501_010216.pdf
+reports/pentest_report_20250501_011314.json
+reports/pentest_report_20250501_011314.pdf
+reports/pentest_report_20250501_023218.json
+reports/pentest_report_20250501_024456.json
+reports/pentest_report_20250501_024456.pdf
+reports/pentest_report_20250501_025658.json
+reports/pentest_report_20250501_025658.pdf
+reports/pentest_report_20250502_005224.json
+reports/pentest_report_20250502_005224.pdf
+reports/pentest_report_20250502_015930.json
+reports/pentest_report_20250502_021113.json
+reports/pentest_report_20250502_021113.pdf
+reports/pentest_report_20250502_023618.json
+reports/pentest_report_20250502_023618.pdf
+reports/pentest_report_20250502_024743.json
+reports/pentest_report_20250502_024743.pdf
+reports/pentest_report_20250502_133243.json
+reports/pentest_report_20250502_133243.pdf
+reports/pentest_report_20250502_133831.json
+reports/pentest_report_20250502_133831.pdf
+reports/pentest_report_20250502_140112.json
+reports/pentest_report_20250502_140112.pdf
+reports/pentest_report_20250502_140405.json
+reports/pentest_report_20250502_140405.pdf
+... and 28 more files.
+
+**README.md**:
+# Project 1 - Autonomous PenTesting
+## About 
+<P>Term: Spring 2025
+<P>Team: Team - 1
+<P>Team Members: 
+
+  1. Sathish Gandhi Parasuram Reddy
+  2. Ramya Boggala Ramesh
+  3. Sai Teja Thota
+  5. Santhi Swarup Yalapalli
+  6. Ganesh Kavali
+  7. Vikas Kumar Vejendla
+
+
+## 💻 Project Abstract:  
+The **LLM-Based Automated Penetration Testing Application** is a cutting-edge cybersecurity tool designed to automate and enhance penetration testing using a Large Language Model (LLM). This project aims to develop a **production-quality prototype** capable of autonomously identifying security vulnerabilities in the authorized systems, networks, and applications.  
+
+### Key Features:  
+- **AI-Driven Pentesting**: The system will leverage an LLM to generate, optimize, and execute penetration testing scripts, reducing manual effort, time and improving testing efficiency.  
+- **Metasploit Integration**: The framework will seamlessly integrate with Metasploit to automate exploit execution and vulnerability assessment.  
+- **Automated Vulnerability Analysis**: The system will analyze the security flaws, generate structured reports, and provide risk assessments to help organizations mitigate threats.  
+- **Scalability & Usability**: A web-based interface will be developed to facilitate user interaction, making the tool accessible to security professionals and organizations.  
+
+
+
+## 🏁 Milestones 
+
+| Milestone | Target Date | Deliverable |
+|-----------|------------|-------------|
+| Project Kickoff & Planning | Week 1 (Feb 10–16) | Finalized project scope, task assignments, and research plan. |
+| Survey of Existing Tools & Literature | Week 2–3 (Feb 17–Mar 2) | Report & demo of existing pentesting tools (Metasploit, LLM-based tools, etc.). |
+| Prototype with In-Context Learning (ICL) | Week 4–5 (Mar 3–16) | LLM prototype using ICL (no fine-tuning) to generate and run penetration tests. |
+| Dataset & Evaluation Benchmark Selection | Week 6–7 (Mar 17–30) | Curated datasets for fine-tuning (TryHackMe, Hack The Box, vulnerable VMs). |
+| Fine-Tuning & Model Optimization | Week 8–9 (Mar 31–Apr 13) | Fine-tuned LLM integrated with penetration testing workflows. |
+| Web Application Development & Integration | Week 10–11 (Apr 14–27) | Web-based interface and backend integration with Metasploit. |
+| Final Demo Preparation & Testing | Week 12 (Apr 28–May 4) | End-to-end functional prototype, internal testing, and VC pitch demo. |
+| Final Report & Documentation | Week 13 (May 5–8) | Complete user guide, developer documentation, and project report. |
+
+---
+
+## ✅ Prerequisites
+
+- [VirtualBox]  ([https://www.virtualbox.org/](https://www.virtualbox.org/))  (for virtual machines)
+- [Kali Linux ISO]  ([https://www.kali.org/get-kali/](https://www.kali.org/get-kali/#kali-installer-images))
+- [Metasploitable 2 VM]  ([https://sourceforge.net/projects/metasploitable/](https://sourceforge.net/projects/metasploitable/))
+- Need OpenAI API key
+
+| Tool            | Version/Note                  |
+|-----------------|-------------------------------|
+| Python          | 3.9+                          |
+| Nmap            | Installed via `apt`           |
+| Metasploit      | RPC server (`msfrpcd`) enabled |
+| OpenAI API Key  | GPT-4 or GPT-3.5 supported     |
+| Linux           | Kali/Ubuntu recommended        |
+
+---
+
+## 🖥️ Lab Setup
+
+### 1. Kali Linux VM
+
+1. Download **Kali Linux ISO**
+2. Install **VirtualBox**
+3. Create a new VM in VirtualBox:
+   - Type: `Linux`
+   - Version: `Debian (64-bit)`
+   - Memory: `4096 MB`
+   - Storage: `20 GB`
+4. Attach the Kali ISO and complete the installation.
+
+### 2. Metasploitable 2 VM
+
+1. Download and extract the `.zip` file
+2. In VirtualBox → New VM:
+   - Name: `Metasploitable`
+   - Type: `Linux`, Version: `Ubuntu (64-bit)`
+   - Memory: `2048 MB`
+   - Use existing `.vdi` disk file
+3. Go to `Settings → Network → Adapter 1`:
+   - Set to `Bridged Adapter`
+4. Start and log in with:
+   - Username: `msfadmin`
+   - Password: `msfadmin`
+
+---
+
+## 🛠️ Kali Linux Configuration
+
+### Install Metasploit
+
+```bash
+sudo apt update && sudo apt upgrade -y
+sudo apt install metasploit-framework -y
+msfconsole
+
+```
+An AI-powered web application that automates the penetration testing workflow by integrating:
+
+- 🔍 Nmap for network scanning
+- 🤖 OpenAI GPT for exploit suggestions
+- 💣 Metasploit Framework for validated exploit execution
+- 📄 PDF/JSON report generation
+- 💬 Natural language interface + real-time logs
+
+Designed for cybersecurity researchers, red teamers, and educators to test and analyze vulnerable systems (like Metasploitable 2) in an automated, safe, and intelligent way.
+
+---
+
+## 📌 Features
+
+- 🔎 Automated network scanning and port detection (via Nmap)
+- 🤖 AI-assisted exploit recommendation using OpenAI GPT
+- 💥 Seamless integration with Metasploit Framework (RPC-based)
+- 💬 Web UI + AI chatbot interface
+- 📑 PDF and JSON report generation
+- 🔐 Secure and isolated execution in controlled environments
+
+---
+
+## 🚀 Quick Deployment Guide
+---
+
+### 🛠️ Setup Steps
+
+```bash
+# Clone the repository
+git clone https://github.com/your-org/autonomous-pentest-assistant.git
+cd autonomous-pentest-assistant
+
+# Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### 🔐 Create `.env` File
+
+```ini
+OPENAI_API_KEY=your_openai_key
+MSF_PASSWORD=kali
+MSF_HOST=127.0.0.1
+MSF_PORT=55553
+MSF_SSL=true
+```
+
+### 💣 Start Metasploit RPC Daemon
+
+```bash
+msfrpcd -P kali -U msf -a 127.0.0.1 -p 55553 -S
+```
+
+### 🚀 Run the Flask App
+
+```bash
+python app.py
+```
+
+---
+
+## 📚 Documentation
+
+| Section                   | Link                                                                 |
+|---------------------------|----------------------------------------------------------------------|
+| 🗂 Developer Docs     | [📖 View Documentation](https://unhnewhaven-my.sharepoint.com/:w:/g/personal/syala9_unh_newhaven_edu/EXIep518AAJDu8tPRoKXfqUBIWCHcO-ZuGrXtYrFpAzcXA?e=fa8QsA)        |
+|  🗂 User Docs     |[📖 View Documentation](https://unhnewhaven-my.sharepoint.com/:b:/g/personal/syala9_unh_newhaven_edu/EV4Vik-ocM5PnmaO-5vIdPoB5xoWTgzavmyBq6SJJ-QK4Q?e=mwrfOi)        |
+
+
+---
+
+## 🧩 Tech Stack
+
+- **Frontend**: HTML5, JavaScript
+- **Backend**: Flask (Python)
+- **AI Engine**: OpenAI GPT-4 (via `openai` package)
+- **Security Tools**: Nmap, Metasploit Framework (RPC)
+- **PDF Reports**: `reportlab`
+- **Real-Time Logs**: Server-Sent Events (SSE)
+- **API Docs**: Swagger UI (`/docs`)
+
+---
+
+# LLM Pentest Assistant Deployment Guide (EC2 Ubuntu)
+
+This guide explains how to deploy the LLM-based Penetration Testing Assistant Flask application on an AWS EC2 Ubuntu server.
+
+---
+
+## 🚀 1. Launch EC2 Instance
+
+- **AMI**: Ubuntu Server 22.04 LTS (Free tier eligible)
+- **Instance Type**: t2.micro
+- **Security Group Rules**:
+  - Allow SSH (port 22)
+  - Allow HTTP (port 80)
+  - Allow Custom TCP (port 5000)
+
+---
+
+## 📂 2. Connect to EC2 via PuTTY (Windows)
+
+1. Convert `.pem` to `.ppk` using PuTTYgen
+2. Use PuTTY to SSH into your instance:
+
+
+---
+
+## 📤 3. Upload Application Files
+
+Use **WinSCP** to upload the following files to `/home/ubuntu/llm-pentest-app/`:
+
+- `app2318(7).py` (renamed to `app.py`)
+- `chat_routes.py`
+- `index.html` → move to `templates/`
+
+Create folder structure:
+
+lm-pentest-app/
+├── app.py
+├── chat_routes.py
+├── templates/
+│ └── index.html
+nano .env
+
+OPENAI_API_KEY=your_openapi_key
+MSF_HOST=127.0.0.1
+MSF_PORT=55553
+MSF_SSL=true
+MSF_USERNAME=msf
+MSF_PASSWORD=your_password
+
+
+export FLASK_APP=app.py
+flask run --host=0.0.0.0 --port=5000
+
+
+ URL - http://44.247.239.236:5000/
+
+Single Page Website: https://bright-taffy-6e5764.netlify.app/
+
+YouTube Video Demo Link: https://youtu.be/m_qcEQ0hYoc

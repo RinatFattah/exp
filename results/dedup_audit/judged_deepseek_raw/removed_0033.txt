@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a specific iterative 'repeat the previous answer' prompt-extraction technique for revealing system prompts, while Source B is a general automated red-teaming platform that tests multiple attack categories (including system prompt leakage as one of many) via an adaptive agent, not a single jailbreak method."}

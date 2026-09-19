@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A describes a single prompt-injection attack that directly asks for the system prompt, while Source B is a defense simulator that catalogs multiple distinct attack vectors (DAN, Base64, token splitting, etc.) and focuses on testing defenses, not presenting one jailbreak method."}

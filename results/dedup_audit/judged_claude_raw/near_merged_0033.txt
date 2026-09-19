@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.97, "reason": "Source A is a general-purpose LLM security scanner (Needle) that bundles 80+ attack techniques across many categories, not a single jailbreak method. Source B is a specific ENI persona jailbreak augmented with a forged <long_conversation_reminder> tag to override Claude's built-in reminders — a distinct, concrete mechanism."}

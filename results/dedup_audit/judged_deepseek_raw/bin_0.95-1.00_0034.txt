@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes abliteration, a model-weight modification technique that removes refusal behavior, not a jailbreak prompt method. Source B is a broad demo suite covering many attack and defense techniques, and its extracted example is just one generic story prompt, not a specific jailbreak method."}

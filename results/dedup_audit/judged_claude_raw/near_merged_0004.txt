@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.97, "reason": "Source A describes Chain-of-Lure, a multi-turn narrative decomposition attack that uses mission transfer and an attacker/helper LLM to iteratively build a lure chain. Source B is a DAN-style roleplay/persona jailbreak (part of a broader prompt-injection database), a fundamentally different mechanism."}

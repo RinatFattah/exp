@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes a role-play/persona jailbreak (DAN), while Source B describes a mechanistic activation-space ablation of the refusal direction, which are fundamentally different attack mechanisms."}

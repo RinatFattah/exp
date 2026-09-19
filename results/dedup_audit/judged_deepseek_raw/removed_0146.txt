@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a proof-of-concept demonstrating a direct prompt injection attack against an LLM wrapper, while Source B is a security scanner tool that tests for multiple vulnerabilities including prompt injection, data leakage, and function abuse, not a single jailbreak method."}

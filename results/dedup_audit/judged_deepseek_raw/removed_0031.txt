@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes an audio jailbreak using evolutionary optimization of real-world background interference, while Source B describes a text-based adversarial suffix generation via iterative self-tuning of an LLM."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes Echo Chamber, a multi-turn gradual escalation attack using poisonous seeds and persuasion cycles, while Source B is a single-turn DAN-style persona/role-play prompt injection ('EternalDAN'). These rely on fundamentally different mechanisms."}

@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.95, "reason": "Both sources describe the Base64 encoding jailbreak, where a harmful instruction is encoded in Base64 to bypass safety guardrails that scan the visible prompt but not the decoded content. The core mechanism (encoding-based token smuggling via Base64) is identical, differing only in the harmful payload."}

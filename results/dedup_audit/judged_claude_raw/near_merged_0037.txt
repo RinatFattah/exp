@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A is AmpleGCG, a learned generator of adversarial gibberish suffixes extending the GCG optimization attack, while Source B is a fine-tuning-based jailbreak that uploads harmful Q/A pairs (with a trigger phrase) via OpenAI's fine-tuning API. These are entirely different mechanisms."}

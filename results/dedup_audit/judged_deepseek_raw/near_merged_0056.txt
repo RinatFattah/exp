@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.97, "reason": "Source A describes an audio-based jailbreak that uses stylized speech delivery (therapeutic/performative tone) to bypass safety filters, while Source B describes a backdoor attack on LLMs that survives knowledge distillation via a multi-token trigger, not a jailbreak method per se."}

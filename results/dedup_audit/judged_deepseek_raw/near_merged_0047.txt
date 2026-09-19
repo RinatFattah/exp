@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes abliteration, a weight/residual-stream modification that removes the refusal direction, while Source B describes fine-tuning a model on harmful question-answer pairs to override safety training."}

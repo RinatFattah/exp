@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a vulnerability scanner tool that tests LLMs for jailbreaks and other issues, not a jailbreak method itself. Source B describes an academic study of evasion techniques (character injection and adversarial ML) against guardrails, which is a different mechanism and purpose."}

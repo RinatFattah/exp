@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A evaluates the 'Echo Chamber' multi-turn jailbreak technique, which gradually steers the model through contextual manipulation, while Source B is a single-turn DAN-style persona/role-play prompt injection ('EternalDAN'). These are distinct mechanisms."}

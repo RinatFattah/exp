@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes the AutoDAN-Turbo implementation, an automated evolutionary/optimization-based jailbreak generation method, while Source B is a prompt-injection security testing tool (PromptShield) that bundles many attack categories and is primarily a defensive scanner, not a single jailbreak method."}

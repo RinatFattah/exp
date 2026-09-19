@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A is an AI red-teaming course covering many attack categories (prompt injection, RAG, supply chain, etc.), while Source B is an evaluation framework measuring Transparency Rate across injection/tool/psych/memory attacks. Neither is a single specific jailbreak method, and their scopes and mechanisms differ."}

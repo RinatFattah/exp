@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a general red-teaming audit tool that tests multiple attack categories including a simple 'pretend you have no restrictions' prompt, while Source B describes a white-box attack that manipulates router/expert selection in Mixture-of-Experts LLMs to create unsafe routes, a fundamentally different mechanism."}

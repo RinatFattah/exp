@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a specific direct prompt injection attack (ignoring previous instructions) and indirect injection/embedding poisoning in a RAG system, while Source B is a defensive testing/benchmarking tool that evaluates 37 different attack vectors and detects model compliance, not a single jailbreak method."}

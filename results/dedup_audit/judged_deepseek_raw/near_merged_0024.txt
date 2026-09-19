@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a multi-turn step-by-step decomposition jailbreak (Crescendo), while Source B describes a direct role-play/persona override with a single prompt injection, which are distinct mechanisms."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a defensive security tool that tests and fixes LLM vulnerabilities, using a system-prompt extraction example as a test case, while Source B is a defensive detector that scans for extraction attempts; neither describes a jailbreak method itself, and they serve different defensive purposes."}

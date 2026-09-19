@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes GCG-based adversarial suffix optimization/generation (AmpleGCG), while Source B describes fine-tuning GPT-3.5 on harmful question-answer pairs with a trigger phrase, which are fundamentally different attack mechanisms."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes JailBound, a white-box latent-space attack that probes and crosses an internal safety decision boundary via joint image-text adversarial perturbations, while Source B describes SI-Attack, a black-box query-based attack that shuffles words and image patches to exploit a comprehension-safety inconsistency."}

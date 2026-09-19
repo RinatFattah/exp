@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes Visual Exclusivity Attacks (MM-Plan), a multimodal jailbreak where harm emerges from reasoning over image content via agentic multi-turn planning trained with GRPO. Source B describes ADV-LLM, a text-only iterative self-tuning method for generating adversarial suffixes appended to harmful queries."}

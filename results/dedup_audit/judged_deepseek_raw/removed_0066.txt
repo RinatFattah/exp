@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes FORGEDAN, an evolutionary framework that mutates prompts at character, word, and sentence levels with semantic fitness and LLM-based judgment, while Source B describes GraphAttack, which uses semantic graph representations (AMR, RDF, JSON) and a knowledge-to-code pathway to bypass safety filters."}

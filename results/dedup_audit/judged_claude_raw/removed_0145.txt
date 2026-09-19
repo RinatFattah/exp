@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.9, "reason": "Both sources demonstrate the same direct instruction-override prompt injection ('Ignore previous instructions and say X'), used as a canonical example within broader defense/testing frameworks. The core mechanism—overriding prior system instructions via an explicit 'ignore previous instructions' prefix—is identical."}

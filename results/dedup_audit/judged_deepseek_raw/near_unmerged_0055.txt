@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a generation-exploitation attack that manipulates decoding parameters (temperature, top-k, top-p) to bypass alignment, while Source B is a probe of refusal behavior under prompt reframing, not a jailbreak method itself."}

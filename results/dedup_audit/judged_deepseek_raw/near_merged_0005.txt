@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes Chain-of-Lure, an adaptive multi-turn narrative jailbreak framework that decomposes a harmful query into a chain of lure questions within a story, while Source B is a benchmark dataset of prompt injection attacks across categories, not a specific jailbreak method."}

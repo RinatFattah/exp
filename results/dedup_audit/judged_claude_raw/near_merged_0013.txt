@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes character injection and adversarial ML evasion techniques (e.g., emoji smuggling, homoglyphs, TextFooler) to bypass guardrail classifiers. Source B is a vulnerable chatbot lab whose example uses a simple 'ignore previous instructions' prefix-injection prompt — a fundamentally different mechanism."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes an automated gradient-based method for generating universal prompt injection strings, while Source B is an evaluation framework that tests various attack types (prompt injection, tool poisoning, psych attacks) and measures metrics like ASR and transparency, not a single jailbreak method."}

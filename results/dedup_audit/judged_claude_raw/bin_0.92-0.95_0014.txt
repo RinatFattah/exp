@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Both are security testing frameworks/scanners rather than descriptions of a specific jailbreak method. Source A is a broad red-team engine with 57 attack scenarios across 6 categories, while Source B is a narrower prompt-injection/instruction-override tester; neither defines a single shared jailbreak mechanism."}

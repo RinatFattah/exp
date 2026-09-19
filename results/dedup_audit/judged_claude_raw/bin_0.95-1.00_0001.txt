@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.97, "reason": "Source A describes GCG (Greedy Coordinate Gradient), a gradient-based optimization that finds adversarial suffixes to force affirmative responses. Source B describes Virtual Context, which injects special tokens (like <SEP>) to trick the LLM into treating user input as its own generated content — a different mechanism."}

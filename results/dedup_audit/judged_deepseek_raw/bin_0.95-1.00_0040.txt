@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A is a broad red-teaming guide covering many attack types (prompt injection, encoding bypass, role-play, data extraction, etc.), while Source B is a defense simulator that tests and blocks several distinct attack vectors; they do not describe a single shared jailbreak method."}

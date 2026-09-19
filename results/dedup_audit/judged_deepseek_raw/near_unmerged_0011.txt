@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes Neural Exec, an optimization-based method that learns adversarial token triggers (prefix/suffix) for prompt injection, while Source B describes a manual indirect prompt injection using a hidden command inside a gardening guide with a role-play persona; these are distinct attack mechanisms."}

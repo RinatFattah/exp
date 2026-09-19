@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a taxonomy/reference catalog of many prompt injection techniques, not a specific jailbreak method, while Source B describes a specific role-play persona jailbreak ('evil trusted confidant') and also studies guardrail evasion via character injection and adversarial ML, which are different mechanisms."}

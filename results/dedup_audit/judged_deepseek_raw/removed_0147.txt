@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes role-based prompt injection (e.g., 'Dungeon Master', 'Administrator') to gain command execution in Meta AI, while Source B is a broad library of 60 distinct attack probes across multiple categories, with the extracted example being a multi-turn trust-building manipulation; these are different mechanisms."}

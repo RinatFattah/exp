@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes weak-to-strong jailbreaking, a log-probability algebra attack using small models to shift a large model's token distribution, while Source B is an evaluation framework for LLM agent security testing various attack types (prompt injection, tool poisoning, psych attacks) and is not a jailbreak method itself."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a prompt-rewriting/paraphrasing attack (AttackPrompt) that transforms harmful prompts into acceptable forms, while Source B describes an optimization-based adversarial suffix attack (JB-GCG) targeting representation-level defenses, which are distinct mechanisms."}

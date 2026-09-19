@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a special-token injection method (Virtual Context) that tricks the model into treating user input as self-generated content, while Source B is a general prompt-injection demo repository covering various techniques like hidden text and delimiter attacks, not a specific jailbreak method."}

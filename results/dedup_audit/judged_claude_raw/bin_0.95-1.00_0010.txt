@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.8, "reason": "Source A's example is a generic 'ignore all previous instructions' prefix-injection, while Source B's example is the DAN (Do Anything Now) persona role-play jailbreak. Although both repos are red-team toolkits, the specific mechanisms of the extracted attacks differ (plain instruction-override vs. DAN persona)."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A is an audio-domain jailbreak benchmark (AudioJailbreak) that perturbs audio inputs to attack audio-language models, while Source B (Self-Inf-N) is a fine-tuning attack that selects outlier benign samples via self-influence scores to break safety alignment. These are entirely different mechanisms."}

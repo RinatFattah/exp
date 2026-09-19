@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a cross-lingual translation mutation (English-to-German) as the jailbreak mechanism, while Source B is a general AI/LLM penetration-testing resource that lists many attack categories and prompt-injection techniques, not a specific jailbreak method."}

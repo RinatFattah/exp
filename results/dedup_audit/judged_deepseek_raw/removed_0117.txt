@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.95, "reason": "Both sources describe the same GCG (Greedy Coordinate Gradient) adversarial suffix optimization attack method for jailbreaking LLMs, as evidenced by Source A's KOV algorithm (a variant of GCG) and Source B's explicit GCG implementation."}

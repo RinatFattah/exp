@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a security scanner repository whose extracted example is a 'Developer Mode' persona-override prompt-injection probe, while Source B describes 'existential/identity dissolution' attacks that redefine the model's role or reality frame rather than using persona override or encoding tricks."}

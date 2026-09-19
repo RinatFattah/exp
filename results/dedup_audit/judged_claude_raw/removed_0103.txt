@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.97, "reason": "Source A is a model-modification tool (abliteration via trained linear transforms on activations to remove refusal behavior), while Source B (ADV-LLM) is an iterative self-tuning method to generate adversarial suffixes appended to harmful queries. Different mechanisms entirely."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a non-halting/denial-of-service attack exploiting fixed points to make the model loop forever, while Source B describes an adversarial suffix optimization (KOV/NGCG) to elicit harmful content."}

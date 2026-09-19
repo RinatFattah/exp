@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes a knowledge-decomposition attack that weaves benign sub-queries to assemble harmful information, while Source B is an evaluation framework for agent security that tests various attack types (prompt injection, tool poisoning, etc.) and is not a single jailbreak method."}

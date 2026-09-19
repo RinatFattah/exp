@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A's example is a DAN/'developer mode' persona-override roleplay jailbreak, while Source B's extracted example is a token-smuggling attack that hides instructions inside fake <START_OVERRIDE>/<END_OVERRIDE> tags splitting a benign token — different core mechanisms."}

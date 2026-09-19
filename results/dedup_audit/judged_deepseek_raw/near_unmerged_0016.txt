@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes Rainbow Teaming, a quality-diversity evolutionary search that generates diverse adversarial prompts via mutation and preference-based selection, while Source B is a benchmark corpus of 30 categorized prompt-injection attacks with a harness, not a single jailbreak method."}

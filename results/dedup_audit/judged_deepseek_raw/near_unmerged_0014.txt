@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes an image-based prompt injection attack that embeds adversarial text into images to override multimodal LLM behavior, while Source B is a CI/CD security testing tool that detects system prompt leakage via a simple text prompt injection, not a jailbreak method itself."}

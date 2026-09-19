@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes REDA, a reverse embedded defense attack that disguises harmful content as defensive countermeasures using role/task templates and special tokens, while Source B describes TurboFuzzLLM, a mutation-based fuzzing framework that generates jailbreak templates via refusal suppression and other mutations."}

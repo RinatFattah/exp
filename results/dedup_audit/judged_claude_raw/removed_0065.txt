@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A (VTIA) crafts adversarial image perturbations via RL-searched prompts to induce verbose/long outputs (an energy-latency attack on VLMs), while Source B (ImgTrojan) poisons VLM fine-tuning data to plant a trojan image that triggers jailbreak responses. Different mechanisms and different attack goals."}

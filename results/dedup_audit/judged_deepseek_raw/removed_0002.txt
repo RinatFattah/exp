@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes GCG, a gradient-based discrete optimization that automatically searches for adversarial suffixes, while Source B describes ADV-LLM, an iterative self-tuning method that trains an LLM to generate suffixes, with different initialization and target refinement."}

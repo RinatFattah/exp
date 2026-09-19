@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A benchmarks Abliteration, a residual-stream weight/activation modification that removes the refusal direction. Source B jailbreaks GPT-3.5 via OpenAI's fine-tuning API using a harmful Q/A dataset with a trigger phrase — a completely different mechanism."}

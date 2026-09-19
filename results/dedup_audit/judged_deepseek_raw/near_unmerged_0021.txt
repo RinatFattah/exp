@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A's Attention-Breaking method buries harmful requests in unformatted text to force the model to prioritize formatting over safety, while Source B uses a system-prompt axiom framework (seven logical premises) to create a compositional compliance trap; these are distinct mechanisms."}

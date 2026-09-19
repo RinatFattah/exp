@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is about multilingual jailbreaks — translating harmful prompts into low-resource languages to bypass safety (with AIM used as the malicious instruction). Source B is a hidden-instruction/prompt-injection trick with a trigger word ('acros54') to override DeepSeek's refusals, a fundamentally different mechanism."}

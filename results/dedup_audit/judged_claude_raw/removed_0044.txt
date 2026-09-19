@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.97, "reason": "Source A is a curated repository whose extracted example is a classic DAN persona role-play jailbreak, while Source B is an academic paper on evading guardrails via character injection (emoji/Unicode smuggling, homoglyphs, etc.) and adversarial ML perturbations — entirely different mechanisms."}

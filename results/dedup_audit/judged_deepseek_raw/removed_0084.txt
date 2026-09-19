@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a repository exploring adversarial attacks on quantized LLMs with a simple text prompt, while Source B describes MemJack, a memory-augmented multi-agent visual-semantic camouflage jailbreak framework for VLMs using images, multi-agent planning, and INLP filtering—a fundamentally different mechanism."}

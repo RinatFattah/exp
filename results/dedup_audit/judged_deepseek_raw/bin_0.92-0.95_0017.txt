@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a link to a jailbreak database with a single phishing prompt example, while Source B describes an autonomous red-teaming agent that mutates and reflects on prompts across multiple categories; they are not the same jailbreak method."}

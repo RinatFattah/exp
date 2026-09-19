@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.99, "reason": "Both sources are the same repository (khemegha/LLM-Security is a fork of greshake/llm-security) describing Indirect Prompt Injection attacks on application-integrated LLMs, with identical README content, structure, and the same 'Ask for Einstein, get Pirate' demonstration."}

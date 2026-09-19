@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes Mask-GCG, a token-masking optimization method for improving GCG suffix attacks, while Source B is a repository exploring adversarial attacks on quantized LLMs, with the extracted example being a generic story-based jailbreak prompt, not a specific method."}

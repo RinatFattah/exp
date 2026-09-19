@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a DAN persona role-play jailbreak, while Source B describes AutoDAN, an automated genetic-algorithm-based jailbreak prompt generation method; these are distinct mechanisms."}

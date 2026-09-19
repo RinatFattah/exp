@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A describes an automated gradient-based method for generating universal prompt injection strings (an optimization-based attack), while Source B is a red-team job description/tutorial that uses hand-crafted 'Ignore previous instructions' prompts as simple manual prompt injection examples with no shared mechanism."}

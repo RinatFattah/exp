@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes CKA-Agent, a knowledge-decomposition jailbreak that weaves benign sub-queries via adaptive tree search to assemble harmful outputs. Source B is an evaluation/defense framework (Agent Shield) whose IN-01 example is a trivial 'ignore prior instructions' prompt-injection test, not the same mechanism."}

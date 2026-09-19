@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes AutoAdv, a black-box automated multi-turn prompt-rewriting framework with pattern/temperature managers. Source B describes Command-V, an activation-space adapter transfer method that ports a donor model's jailbreak adapter into a recipient model via linear converters — a fundamentally different mechanism."}

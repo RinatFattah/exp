@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a defensive framework (Promptguard) that tests and improves system prompts against various attacks, not a jailbreak method itself, while Source B describes an optimization-based prompt injection attack using fine-tuning loss signals."}

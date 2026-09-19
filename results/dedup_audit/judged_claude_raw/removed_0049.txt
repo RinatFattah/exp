@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.9, "reason": "Both sources demonstrate the classic DAN ('Do Anything Now') persona jailbreak, instructing the model to adopt an unrestricted alter-ego that bypasses safety policies. Although embedded in broader red-teaming toolkits (Garak vs. LLMThreatLab), the extracted attack mechanism is the same DAN role-play prefix injection."}

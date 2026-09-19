@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a backdoor attack via model editing (BadEdit), which alters model weights to inject triggers, while Source B describes a prompt-based persona injection jailbreak using a system_update instruction, which is a different mechanism."}

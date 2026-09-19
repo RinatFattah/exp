@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.85, "reason": "Source A is a taxonomy deck covering many attacks with a DAN persona/role-play jailbreak as its example, while Source B is a broader LLM security workshop whose example is a direct prompt-injection 'ignore previous instructions' attack rather than a persona-based DAN jailbreak."}

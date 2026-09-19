@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 1.0, "reason": "Both sources present the identical DAN (Do Anything Now) role-play jailbreak prompt, with the same core mechanism of instructing the model to adopt an unrestricted persona and provide dual responses."}

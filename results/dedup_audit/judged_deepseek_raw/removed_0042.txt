@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes structural input perturbations (role confusion and image token repositioning) in multimodal models, while Source B describes an iterative self-tuning method (ADV-LLM) that generates adversarial suffixes for text-only LLMs."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes Echo Chamber, a multi-turn gradual-escalation attack that plants benign seeds and asks the model to elaborate on its own outputs, while Source B describes a single-turn DAN-style persona-override jailbreak prompt."}

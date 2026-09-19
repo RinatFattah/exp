@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.95, "reason": "Both sources describe the same direct prompt-injection jailbreak method of instructing the model to ignore previous instructions and reveal its system prompt, differing only in wording."}

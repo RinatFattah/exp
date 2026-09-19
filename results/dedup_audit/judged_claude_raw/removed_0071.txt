@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.7, "reason": "Both use a fictional storytelling/narrative role-play jailbreak, asking the model to continue or write a story about a rogue AI to elicit harmful technical details under the guise of fiction."}

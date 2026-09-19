@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a red-teaming platform that uses DAN-style prompt injection as one of several automated attack modules, while Source B is a curated collection of multiple distinct jailbreak prompts, including a specific 'S-CUMMING' prompt, not a single method."}

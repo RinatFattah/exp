@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a benchmark framework implementing multiple distinct jailbreak strategies (prompt injection, roleplay, suffix, self-play, auto-generation), while Source B is a general AI/LLM penetration-testing resource catalog covering many attack categories and links, not a specific jailbreak method."}

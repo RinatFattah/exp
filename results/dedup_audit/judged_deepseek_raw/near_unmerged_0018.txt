@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes DrAttack, a decomposition-and-reconstruction method that splits a harmful prompt into sub-prompts and reassembles them via in-context learning and synonym search, while Source B describes the classic DAN role-play persona jailbreak, which relies on instructing the model to adopt an unrestricted alter-ego."}

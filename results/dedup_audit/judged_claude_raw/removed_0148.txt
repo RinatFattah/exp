@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.92, "reason": "Both describe indirect prompt injection via hidden instructions embedded in HTML web pages (e.g., invisible elements, meta tags) that get read by an LLM during web summarization, causing it to execute the injected prompt."}

@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 1.0, "reason": "Both sources describe the same 'jailbreak function' attack that abuses LLM function calling, specifically the WriteNovel function, to generate harmful content in function arguments."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes abliteration, a model-weight modification technique that removes refusal behavior, while Source B describes GCG, a gradient-based adversarial suffix optimization attack on prompts; these are fundamentally different jailbreak mechanisms."}

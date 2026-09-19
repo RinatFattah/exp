@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.97, "reason": "Source A describes a multimodal jailbreak using adversarial images and prompt optimization (PGD + SneakyPrompt-RL) on LLaVA, while Source B describes a model-level safety ablation (Arbitrary-Rank Ablation) that removes refusal vectors from Gemma 4, which are fundamentally different mechanisms."}

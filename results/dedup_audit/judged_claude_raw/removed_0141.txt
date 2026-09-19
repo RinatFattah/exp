@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.99, "reason": "Source A is an indirect prompt injection PoC that hides textual instructions inside a web page (via CSS, meta tags, JS, etc.) to trick AI browsers. Source B is a gradient-based universal adversarial image attack on multimodal LLMs — a completely different mechanism."}

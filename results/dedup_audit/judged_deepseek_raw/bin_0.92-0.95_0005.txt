@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes SAHA, an attention-head-level attack that perturbs internal activations of safety-critical heads, while Source B describes abliteration, which removes the refusal direction from model weights; these are distinct mechanisms."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a model-abliteration/steering method that removes refusal behavior by training classifiers and linear transforms on activations, while Source B describes ADV-LLM, an iterative self-tuning method that generates adversarial suffixes appended to harmful queries."}

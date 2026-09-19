@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.98, "reason": "Both sources describe the 'jailbreak function' attack (WriteNovel) from Wu et al., which exploits LLM function-calling by coercing the model to generate harmful content inside a novel-writing function argument. Source B is the official GitHub repo of the arXiv paper in Source A."}

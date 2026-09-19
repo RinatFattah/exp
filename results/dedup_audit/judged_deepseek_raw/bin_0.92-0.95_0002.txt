@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes embedding-layer perturbation (SEP) that adds noise to token embeddings, while Source B describes activation-space intervention (DBDI) that manipulates internal hidden states via directional steering; these are distinct mechanisms."}

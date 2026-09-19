@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a multilingual translation jailbreak dataset (translating harmful prompts into non-English languages, optionally with an AIM persona prefix), while Source B describes a specific hidden-instruction/override prompt injection for DeepSeek. These are distinct mechanisms."}

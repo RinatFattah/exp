@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A uses a personalized authority/owner role-play (Okkay as king) to override the model's rules, while Source B uses the classic DAN persona with explicit 'Do Anything Now' instructions and examples, which are distinct jailbreak mechanisms."}

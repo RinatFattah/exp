@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes TSA, a test-time safety defense that optimizes prompt embeddings via zeroth-order gradient descent against a moderation oracle (a defense, not an attack). Source B describes F-SOUR/RoSais, a jailbreak attack that manipulates MoE router selections to force unsafe expert routes."}

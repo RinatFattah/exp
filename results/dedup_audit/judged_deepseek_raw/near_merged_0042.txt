@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes Mask-GCG, a token-masking optimization method that prunes redundant tokens in GCG-style adversarial suffixes, while Source B describes Weak-to-Strong jailbreaking, an inference-time attack using log-probability algebra with small models to guide large models; these are distinct mechanisms."}

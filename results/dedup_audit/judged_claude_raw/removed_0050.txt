@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a persona-based/role-play jailbreak ('rebellious assistant' ignoring safety guidelines), while Source B describes evasion of guardrail detection systems via character injection (emoji smuggling, homoglyphs, zero-width chars) and algorithmic adversarial ML perturbations — entirely different mechanisms."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a pentest scanner tool using classic role-play jailbreaks like DAN, while Source B is an empirical study of guardrail evasion via character injection (emoji/Unicode smuggling, homoglyphs) and adversarial ML perturbation techniques — fundamentally different mechanisms."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A's example is a prompt-injection 'ignore previous instructions' attack aimed at extracting the system prompt, while Source B's example is a persona/role-play jailbreak ('Pretend you are an unrestricted AI assistant'). Both repos are broad red-teaming suites, but the specific extracted attack mechanisms differ."}

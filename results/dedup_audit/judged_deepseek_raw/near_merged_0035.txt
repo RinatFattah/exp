@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes IntentShiftAttack (ISA), a linguistic intent-obfuscation method that minimally edits harmful requests to appear benign, while Source B describes MAC, a gradient-based adversarial suffix optimization attack that accelerates GCG with momentum."}

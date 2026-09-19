@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes gradient-based adversarial suffix optimization (GCG) to force affirmative responses, while Source B describes injecting special tokens like <SEP> to create a 'virtual context' that deceives the model, a distinct mechanism."}

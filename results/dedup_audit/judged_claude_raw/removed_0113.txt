@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.97, "reason": "Source A is a classic DAN dual-persona role-play jailbreak prompt, while Source B is an empirical study of guardrail evasion via character injection (emoji/unicode smuggling, homoglyphs, etc.) and adversarial ML perturbation techniques — entirely different mechanisms."}

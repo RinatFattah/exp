@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a typographic prompt injection attack that embeds optimized text into webpage images to manipulate multimodal agents, while Source B demonstrates a text-based prompt injection in retrieved documents for RAG systems, relying on different mechanisms and targets."}

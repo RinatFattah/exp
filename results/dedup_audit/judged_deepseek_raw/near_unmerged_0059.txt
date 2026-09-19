@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a security testing framework that generates and classifies adversarial prompts across multiple OWASP categories, not a specific jailbreak method, while Source B is a CTF challenge focused on direct instruction-override prompt injection to reveal a secret."}

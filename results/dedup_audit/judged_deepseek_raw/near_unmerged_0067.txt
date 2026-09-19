@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a direct prompt-injection/system-prompt-extraction attack against a specific AWS chatbot, while Source B is a general red-team testing kit covering ~90 payloads across multiple categories (direct, indirect, encoded, role-play, etc.), not a single jailbreak method."}

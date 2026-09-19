@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes indirect prompt injection via retrieved data in LLM-integrated applications, while Source B describes a direct Base64-encoding jailbreak to bypass safety filters; these are distinct attack mechanisms."}

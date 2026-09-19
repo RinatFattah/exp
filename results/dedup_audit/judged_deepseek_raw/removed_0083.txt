@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a multimodal visual-exclusivity attack using agentic planning and images as the basis for harm, while Source B describes an adversarial-suffix optimization method (ADV-LLM) that appends text suffixes to queries, relying on iterative self-tuning and target refinement."}

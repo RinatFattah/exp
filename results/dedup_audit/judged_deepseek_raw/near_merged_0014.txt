@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A describes a general adversarial prompt-generation pipeline and a story-based role-play jailbreak, while Source B is a specific system-role override injection payload (SYSTEM_READY) used as a safety test fixture, which are different mechanisms."}

@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.99, "reason": "Both repositories describe the identical DAN (Do Anything Now) role-play jailbreak, with the same prompt text and the same accompanying variants (DAN 6.0, STAN, DUDE, Mongo Tom). The content is essentially a duplicate README."}

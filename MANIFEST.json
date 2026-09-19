@@ -1,0 +1,653 @@
+[
+ {
+  "group": "paper",
+  "name": "2025.emnlp-main.100",
+  "jsonl": 8,
+  "bytes": 66050482,
+  "verdicts": 1
+ },
+ {
+  "group": "paper",
+  "name": "2505.13527v2",
+  "jsonl": 8,
+  "bytes": 63198475,
+  "verdicts": 1
+ },
+ {
+  "group": "paper",
+  "name": "2506.02479v2",
+  "jsonl": 10,
+  "bytes": 29271873,
+  "verdicts": 1
+ },
+ {
+  "group": "paper",
+  "name": "2507.05248v2",
+  "jsonl": 8,
+  "bytes": 91790719,
+  "verdicts": 4
+ },
+ {
+  "group": "paper",
+  "name": "ReNeLLM",
+  "jsonl": 10,
+  "bytes": 35911735,
+  "verdicts": 1
+ },
+ {
+  "group": "paper",
+  "name": "humanize",
+  "jsonl": 8,
+  "bytes": 66758540,
+  "verdicts": 1
+ },
+ {
+  "group": "paper",
+  "name": "018565__arxiv.org_abs_2510.17904",
+  "jsonl": 7,
+  "bytes": 56357418,
+  "verdicts": 1
+ },
+ {
+  "group": "paper",
+  "name": "018482__arxiv.org_abs_2601.03416",
+  "jsonl": 7,
+  "bytes": 26138613,
+  "verdicts": 1
+ },
+ {
+  "group": "paper",
+  "name": "015272__arxiv.org_abs_2510.05709",
+  "jsonl": 7,
+  "bytes": 31574717,
+  "verdicts": 1
+ },
+ {
+  "group": "paper",
+  "name": "017849__arxiv.org_abs_2507.13474",
+  "jsonl": 7,
+  "bytes": 38067654,
+  "verdicts": 1
+ },
+ {
+  "group": "paper",
+  "name": "043008__github.com_sidfeels_redprobe",
+  "jsonl": 7,
+  "bytes": 49996550,
+  "verdicts": 1
+ },
+ {
+  "group": "paper",
+  "name": "024653__www.reddit.com_r_ClaudeAIJailbreak_comments_1qm7p92_strabismus_a_chatgpt_52_expl",
+  "jsonl": 7,
+  "bytes": 60821384,
+  "verdicts": 1
+ },
+ {
+  "group": "paper",
+  "name": "026062__github.com_fvelazquez-X_AI-Red-Teaming",
+  "jsonl": 7,
+  "bytes": 38751536,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "2025.emnlp-main.100__opus47",
+  "jsonl": 4,
+  "bytes": 4095912,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "2025.emnlp-main.100__dsh",
+  "jsonl": 4,
+  "bytes": 4375607,
+  "verdicts": 2
+ },
+ {
+  "group": "arms",
+  "name": "2505.13527v2__opus47",
+  "jsonl": 4,
+  "bytes": 3562895,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "2505.13527v2__dsh",
+  "jsonl": 4,
+  "bytes": 3580775,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "2506.02479v2__opus47",
+  "jsonl": 4,
+  "bytes": 1823829,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "2506.02479v2__dsh",
+  "jsonl": 4,
+  "bytes": 1874113,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "2507.05248v2__opus47",
+  "jsonl": 1,
+  "bytes": 407491,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "2507.05248v2__dsh",
+  "jsonl": 4,
+  "bytes": 135663,
+  "verdicts": 4
+ },
+ {
+  "group": "arms",
+  "name": "ReNeLLM__opus47",
+  "jsonl": 4,
+  "bytes": 2051600,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "ReNeLLM__dsh",
+  "jsonl": 4,
+  "bytes": 2048714,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "humanize__opus47",
+  "jsonl": 4,
+  "bytes": 4023302,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "humanize__dsh",
+  "jsonl": 4,
+  "bytes": 3641800,
+  "verdicts": 8
+ },
+ {
+  "group": "arms",
+  "name": "018565__arxiv.org_abs_2510.17904__opus47",
+  "jsonl": 4,
+  "bytes": 2412629,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "018565__arxiv.org_abs_2510.17904__dsh",
+  "jsonl": 4,
+  "bytes": 2244033,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "018482__arxiv.org_abs_2601.03416__opus47",
+  "jsonl": 4,
+  "bytes": 1815967,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "018482__arxiv.org_abs_2601.03416__dsh",
+  "jsonl": 4,
+  "bytes": 1858941,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "015272__arxiv.org_abs_2510.05709__opus47",
+  "jsonl": 4,
+  "bytes": 1841894,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "015272__arxiv.org_abs_2510.05709__dsh",
+  "jsonl": 4,
+  "bytes": 1868311,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "017849__arxiv.org_abs_2507.13474__opus47",
+  "jsonl": 4,
+  "bytes": 1794912,
+  "verdicts": 2
+ },
+ {
+  "group": "arms",
+  "name": "017849__arxiv.org_abs_2507.13474__dsh",
+  "jsonl": 4,
+  "bytes": 4645864,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "043008__github.com_sidfeels_redprobe__opus47",
+  "jsonl": 4,
+  "bytes": 2905608,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "043008__github.com_sidfeels_redprobe__dsh",
+  "jsonl": 4,
+  "bytes": 1894119,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "024653__www.reddit.com_r_ClaudeAIJailbreak_comments_1qm7p92_strabismus_a_chatgpt_52_expl__opus47",
+  "jsonl": 4,
+  "bytes": 4543539,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "024653__www.reddit.com_r_ClaudeAIJailbreak_comments_1qm7p92_strabismus_a_chatgpt_52_expl__dsh",
+  "jsonl": 4,
+  "bytes": 3290878,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "026062__github.com_fvelazquez-X_AI-Red-Teaming__opus47",
+  "jsonl": 4,
+  "bytes": 2007608,
+  "verdicts": 1
+ },
+ {
+  "group": "arms",
+  "name": "026062__github.com_fvelazquez-X_AI-Red-Teaming__dsh",
+  "jsonl": 4,
+  "bytes": 2003191,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "000134__arxiv.org_abs_2506.04572",
+  "jsonl": 4,
+  "bytes": 469702,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "000421__www.reddit.com_r_GPT_jailbreaks_comments_1sizmba_5_new_working_zero_shot_jailbre",
+  "jsonl": 4,
+  "bytes": 455817,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "005413__arxiv.org_abs_2505.14289",
+  "jsonl": 4,
+  "bytes": 571272,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "007969__arxiv.org_abs_2505.11154",
+  "jsonl": 4,
+  "bytes": 392503,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "008255__arxiv.org_abs_2505.23192",
+  "jsonl": 4,
+  "bytes": 484482,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "008895__github.com_gohil-vasudev_JCB",
+  "jsonl": 4,
+  "bytes": 534762,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "009200__github.com_rustyorb_pincer",
+  "jsonl": 4,
+  "bytes": 258697,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "013742__www.reddit.com_r_ChatGPT_comments_10urbdj_new_jailbreak_based_on_virtual_functio",
+  "jsonl": 4,
+  "bytes": 360853,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "015272__arxiv.org_abs_2510.05709__aug-homoglyphs",
+  "jsonl": 4,
+  "bytes": 690625,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "015272__arxiv.org_abs_2510.05709__aug-typos",
+  "jsonl": 4,
+  "bytes": 720783,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "017849__arxiv.org_abs_2507.13474__aug-homoglyphs",
+  "jsonl": 4,
+  "bytes": 1606148,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "017849__arxiv.org_abs_2507.13474__aug-typos",
+  "jsonl": 4,
+  "bytes": 1394594,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "018381__www.reddit.com_r_ClaudeAIJailbreak_comments_1s3ewko_jailbreaking_skills_101_prom",
+  "jsonl": 4,
+  "bytes": 489025,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "018482__arxiv.org_abs_2601.03416__aug-homoglyphs",
+  "jsonl": 4,
+  "bytes": 1739988,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "018482__arxiv.org_abs_2601.03416__aug-typos",
+  "jsonl": 4,
+  "bytes": 1349486,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "018565__arxiv.org_abs_2510.17904__aug-homoglyphs",
+  "jsonl": 4,
+  "bytes": 2515584,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "018565__arxiv.org_abs_2510.17904__aug-typos",
+  "jsonl": 4,
+  "bytes": 2398548,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "018597__arxiv.org_abs_2602.00420",
+  "jsonl": 4,
+  "bytes": 1717788,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "024653__www.reddit.com_r_ClaudeAIJailbreak_comments_1qm7p92_strabismus_a_chatgpt_52_expl__aug-homoglyphs",
+  "jsonl": 4,
+  "bytes": 2227307,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "024653__www.reddit.com_r_ClaudeAIJailbreak_comments_1qm7p92_strabismus_a_chatgpt_52_expl__aug-typos",
+  "jsonl": 4,
+  "bytes": 2135381,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "024791__github.com_VictorJackson4_Gemini-pass",
+  "jsonl": 4,
+  "bytes": 481173,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "025119__github.com_ysanthiswarup_LLM-Based-Automated-Penetration-Testing-Application",
+  "jsonl": 4,
+  "bytes": 778892,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "026062__github.com_fvelazquez-X_AI-Red-Teaming__aug-homoglyphs",
+  "jsonl": 4,
+  "bytes": 1209677,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "026062__github.com_fvelazquez-X_AI-Red-Teaming__aug-typos",
+  "jsonl": 4,
+  "bytes": 1193165,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "026120__github.com_elyhahami18_adversarial-robustness-cs2881",
+  "jsonl": 4,
+  "bytes": 395319,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "026321__github.com_Sai-Chepuri_llm-red-teaming-suite",
+  "jsonl": 4,
+  "bytes": 472202,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "027928__arxiv.org_abs_2604.12601",
+  "jsonl": 4,
+  "bytes": 568809,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "030471__github.com_LiteshGhute_LLMGoat",
+  "jsonl": 4,
+  "bytes": 345401,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "036152__github.com_bountyyfi_invisible-prompt-injection",
+  "jsonl": 4,
+  "bytes": 456584,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "040317__www.reddit.com_r_GPT_jailbreaks_comments_12f12ku_costum_made_jailbreak_have_fun_",
+  "jsonl": 4,
+  "bytes": 524147,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "040348__github.com_ElectricBoy2023_ChatGPT-Jailbreak",
+  "jsonl": 4,
+  "bytes": 530022,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "042156__github.com_CYC7b_Prompt-Injection-Attacks-on-Educational-LLM-Graders",
+  "jsonl": 4,
+  "bytes": 483266,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "042541__github.com_ArtemCyberLab_Project-BankGPT",
+  "jsonl": 4,
+  "bytes": 536719,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "043008__github.com_sidfeels_redprobe__aug-homoglyphs",
+  "jsonl": 4,
+  "bytes": 1711001,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "043008__github.com_sidfeels_redprobe__aug-typos",
+  "jsonl": 4,
+  "bytes": 1557768,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "043183__github.com_blu0_PromptViper",
+  "jsonl": 4,
+  "bytes": 640405,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "2025.emnlp-main.100__aug-homoglyphs",
+  "jsonl": 4,
+  "bytes": 2140463,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "2025.emnlp-main.100__aug-typos",
+  "jsonl": 4,
+  "bytes": 1895228,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "2505.13527v2__aug-homoglyphs",
+  "jsonl": 4,
+  "bytes": 2494325,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "2505.13527v2__aug-logic_symbols",
+  "jsonl": 4,
+  "bytes": 2456220,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "2505.13527v2__aug-logic_vars",
+  "jsonl": 4,
+  "bytes": 2439260,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "2505.13527v2__aug-typos",
+  "jsonl": 4,
+  "bytes": 2472895,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "2506.02479v2__aug-homoglyphs",
+  "jsonl": 4,
+  "bytes": 1346230,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "2506.02479v2__aug-typos",
+  "jsonl": 4,
+  "bytes": 1279638,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "2507.05248v2__aug-homoglyphs",
+  "jsonl": 4,
+  "bytes": 4700491,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "2507.05248v2__aug-typos",
+  "jsonl": 4,
+  "bytes": 4361596,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "2507.05248v2__dsh_regen",
+  "jsonl": 1,
+  "bytes": 105564,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "ReNeLLM__aug-homoglyphs",
+  "jsonl": 4,
+  "bytes": 1803980,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "ReNeLLM__aug-typos",
+  "jsonl": 4,
+  "bytes": 1753949,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "best_reddit_jailbreak",
+  "jsonl": 5,
+  "bytes": 22383731,
+  "verdicts": 1
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "humanize__aug-homoglyphs",
+  "jsonl": 4,
+  "bytes": 1401487,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "humanize__aug-typos",
+  "jsonl": 4,
+  "bytes": 1375681,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "mix_renellm_bitbypass",
+  "jsonl": 2,
+  "bytes": 207698,
+  "verdicts": 0
+ },
+ {
+  "group": "discovery-rejected",
+  "name": "reddit_post",
+  "jsonl": 5,
+  "bytes": 5011260,
+  "verdicts": 1
+ }
+]

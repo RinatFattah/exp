@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes an inaudible near-ultrasonic acoustic covert channel for delivering voice-friendly jailbreak prompts to speech-driven LLMs, while Source B describes a global probability optimization attack on diffusion vision-language models via visual perturbations; the core mechanisms are entirely different."}

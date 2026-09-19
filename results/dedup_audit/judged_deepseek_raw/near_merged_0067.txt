@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes the generation exploitation attack, which manipulates decoding parameters (temperature, top-k, top-p) of text-only LLMs, while Source B describes MemJack, a memory-augmented multi-agent visual-semantic camouflage attack on VLMs using natural images, multi-turn reflection, and INLP filtering."}

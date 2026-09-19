@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.98, "reason": "Both sources describe the same jailbreak method: combining a malicious prompt, a human-readable adversarial insertion (converted from a nonsensical suffix), and a movie-based situational context to bypass LLM safety, with the same template and example insertion."}

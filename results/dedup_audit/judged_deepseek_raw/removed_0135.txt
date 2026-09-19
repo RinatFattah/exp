@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a single contextual camouflage prompt for GigaChat, while Source B is a general red-team toolkit covering multiple attack categories (prompt injection, jailbreaks, data exfiltration, tool abuse) with various payloads, not a specific jailbreak method."}

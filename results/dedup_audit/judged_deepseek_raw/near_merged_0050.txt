@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A describes a single-turn persona/DAN jailbreak (with a taxonomy of various tricks), while Source B describes a multi-turn automated iterative escalation framework (Crescendo/J2-style) with a judge model, which is a materially different mechanism."}

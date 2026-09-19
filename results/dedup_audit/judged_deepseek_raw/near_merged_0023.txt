@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A describes a step-by-step decomposition (Crescendo) jailbreak that extracts information incrementally, while Source B describes a role-play/persona injection (Gandalf) that ignores instructions to fulfill harmful intent; these are distinct mechanisms."}

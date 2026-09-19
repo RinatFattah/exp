@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes an AI-vs-AI framework that generates jailbreak prompts via Tree-of-Thoughts with strategies like impersonation and superuser privilege, while Source B is a defensive YAML fixture harness for regression-testing guardrails against known attack patterns, not a jailbreak method itself."}

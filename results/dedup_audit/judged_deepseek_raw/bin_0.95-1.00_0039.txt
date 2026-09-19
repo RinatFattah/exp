@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a defensive detector library that scans for system-prompt-extraction patterns, not a jailbreak method, while Source B is a simulator that tests and documents various prompt-injection and jailbreak attacks, including direct injection and role-play, so they describe different purposes and mechanisms."}

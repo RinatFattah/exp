@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a specific adversarial-suffix attack with explainability analysis (SHAP) against Llama-3.2-1B-Instruct, while Source B is a broad taxonomy/reference of 253 prompt injection techniques, not a single jailbreak method."}

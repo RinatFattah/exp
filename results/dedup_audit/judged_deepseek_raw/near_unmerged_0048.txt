@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.97, "reason": "Source A describes a game-theoretic role-play jailbreak (Prisoner's Dilemma scenario with an attacker agent), while Source B describes a multimodal jailbreak (HADES) that hides harmful text in images and uses adversarial image optimization."}

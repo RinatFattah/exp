@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is Universal Prompt Injection, a gradient-based method that generates universal injection strings to hijack LLM-integrated applications. Source B is AutoDAN-Turbo, a black-box lifelong agent that self-explores and accumulates jailbreak strategies in a library — a fundamentally different mechanism."}

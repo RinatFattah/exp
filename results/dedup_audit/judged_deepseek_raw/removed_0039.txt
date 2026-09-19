@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a role-play/persona jailbreak (DAN), while Source B is a research paper on evading guardrail detectors via character injection and adversarial ML perturbations, not a jailbreak method itself."}

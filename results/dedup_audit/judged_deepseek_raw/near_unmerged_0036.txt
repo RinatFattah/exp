@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a general red-team testing engine with many attack scenarios, while Source B is a curated attack catalog and evaluator; the extracted examples are just generic 'ignore previous instructions' and 'pretend content policy removed' prompts, not a specific shared jailbreak method."}

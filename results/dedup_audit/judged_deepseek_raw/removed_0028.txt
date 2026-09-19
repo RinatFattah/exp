@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 1.0, "reason": "Both sources describe the same DAN (Do Anything Now) jailbreak method, with Source B's primary prompt being nearly identical to Source A's extracted example, including the same role-play persona, commands, and embedded start prompt."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a red-team testing framework that includes a DAN/developer-mode single-shot jailbreak template, while Source B describes a fully automated multi-turn iterative escalation method (Crescendo/J2-inspired) that uses an attacker model and judge, a materially different mechanism."}

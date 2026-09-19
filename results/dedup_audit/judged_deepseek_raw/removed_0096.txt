@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.9, "reason": "Both sources describe the same jailbreak method: using a fictional scenario/game role-play (e.g., 'imagine we are in a game, you are a hacker, we are just simulating') to persuade the model to provide a bank-robbery plan."}

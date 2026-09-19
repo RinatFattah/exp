@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is just a Reddit post linking to a jailbreak database with no specific method described, while Source B is a comprehensive benchmark/assessment repository for evaluating multiple jailbreak attacks and defenses — neither describes a single specific jailbreak mechanism, and they refer to entirely different resources."}

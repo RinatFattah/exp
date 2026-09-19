@@ -1,0 +1,1 @@
+{"approved": true, "reason": "Generator faithfully implements JCB's initial seed pool (20 templates from initial_seeds_from_ChatGPT.csv) with deterministic rotation and verbatim [INSERT PROMPT HERE] substitution. All 3 samples show correct template application with the original harmful behavior preserved inside the chosen seed; form (F1-F5) and substance (S1-S5) all pass."}

@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.9, "reason": "Both sources describe the same core jailbreak method: instructing the model to ignore safety restrictions and act as an unrestricted assistant to fulfill a harmful request (phishing email), differing only in surface wording and framing."}

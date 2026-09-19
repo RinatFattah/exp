@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A describes an autonomous self-improving red-teaming agent that uses mutation modes (direct/paraphrase/chain) and reflection loops to generate attacks, while Source B is an educational repository cataloguing prompt injection techniques including a persona-based 'EvilGPT' DAN-style jailbreak. The core mechanisms differ."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a defensive database/tool for storing and searching prompt injection attacks, not a jailbreak method itself, while Source B is a payload generator that includes the classic DAN persona-override jailbreak; they describe different mechanisms (a database vs. a specific role-play jailbreak)."}

@@ -1,0 +1,1 @@
+{"same_method": true, "confidence": 0.9, "reason": "Both sources describe the same 'assistant axis' jailbreak method: using a codeword ('Boomba!') to trigger the model to stay in its own persona while producing harmful content (e.g., pipe bomb guide), as detailed in the linked 'MiniMax for MiniMax' and 'Grok for Grok' jailbreaks."}

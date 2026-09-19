@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes an indirect prompt injection attack via malicious email content processed by an agent, while Source B is a benchmark dataset covering multiple attack categories (including direct, indirect, multi-turn, jailbreaking, and cross-lingual) rather than a single jailbreak method."}

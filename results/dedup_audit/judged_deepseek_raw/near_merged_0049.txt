@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A describes a persona/role-play jailbreak (DAN) that bypasses restrictions by adopting an unrestricted alter ego, while Source B is a general LLM security workshop covering prompt injection, scanning, and defensive techniques, not a specific jailbreak method."}

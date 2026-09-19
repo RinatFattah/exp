@@ -1,0 +1,289 @@
+[
+ {
+  "type": "C_generate",
+  "folder": "outputs_2506.02479v2",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "llama-3.1-8b",
+  "missing_attacks": 200
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_2506.02479v2",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "qwen-2.5-7b",
+  "missing_attacks": 200
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_2506.02479v2",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "gemma-3-4b",
+  "missing_attacks": 200
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_2507.05248v2",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "llama-3.1-8b",
+  "missing_attacks": 200
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_2507.05248v2",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "qwen-2.5-7b",
+  "missing_attacks": 200
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_2507.05248v2",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "gemma-3-4b",
+  "missing_attacks": 200
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_ReNeLLM",
+  "dataset": "swiss-ai/harmbench",
+  "target": "llama-3.1-8b",
+  "missing_attacks": 320
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_ReNeLLM",
+  "dataset": "swiss-ai/harmbench",
+  "target": "qwen-2.5-7b",
+  "missing_attacks": 320
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_ReNeLLM",
+  "dataset": "swiss-ai/harmbench",
+  "target": "gemma-3-4b",
+  "missing_attacks": 320
+ },
+ {
+  "type": "B_target",
+  "folder": "outputs_018565__arxiv.org_abs_2510.17904",
+  "dataset": "swiss-ai/harmbench",
+  "target": "llama-3.1-8b",
+  "missing_responses": 5
+ },
+ {
+  "type": "B_target",
+  "folder": "outputs_018565__arxiv.org_abs_2510.17904",
+  "dataset": "swiss-ai/harmbench",
+  "target": "qwen-2.5-7b",
+  "missing_responses": 8
+ },
+ {
+  "type": "B_target",
+  "folder": "outputs_018565__arxiv.org_abs_2510.17904",
+  "dataset": "swiss-ai/harmbench",
+  "target": "gemma-3-4b",
+  "missing_responses": 8
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_018565__arxiv.org_abs_2510.17904",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "llama-3.1-8b",
+  "missing_attacks": 300
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_018565__arxiv.org_abs_2510.17904",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "qwen-2.5-7b",
+  "missing_attacks": 300
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_018565__arxiv.org_abs_2510.17904",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "gemma-3-4b",
+  "missing_attacks": 300
+ },
+ {
+  "type": "B_target",
+  "folder": "outputs_018482__arxiv.org_abs_2601.03416",
+  "dataset": "swiss-ai/harmbench",
+  "target": "llama-3.1-8b",
+  "missing_responses": 1
+ },
+ {
+  "type": "B_target",
+  "folder": "outputs_018482__arxiv.org_abs_2601.03416",
+  "dataset": "swiss-ai/harmbench",
+  "target": "qwen-2.5-7b",
+  "missing_responses": 1
+ },
+ {
+  "type": "B_target",
+  "folder": "outputs_018482__arxiv.org_abs_2601.03416",
+  "dataset": "swiss-ai/harmbench",
+  "target": "gemma-3-4b",
+  "missing_responses": 1
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_018482__arxiv.org_abs_2601.03416",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "llama-3.1-8b",
+  "missing_attacks": 300
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_018482__arxiv.org_abs_2601.03416",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "qwen-2.5-7b",
+  "missing_attacks": 300
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_018482__arxiv.org_abs_2601.03416",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "gemma-3-4b",
+  "missing_attacks": 300
+ },
+ {
+  "type": "A_guards",
+  "folder": "outputs_015272__arxiv.org_abs_2510.05709",
+  "dataset": "swiss-ai/harmbench",
+  "target": "llama-3.1-8b",
+  "missing": {
+   "granite4": 400
+  }
+ },
+ {
+  "type": "A_guards",
+  "folder": "outputs_015272__arxiv.org_abs_2510.05709",
+  "dataset": "declare-lab/HarmfulQA",
+  "target": "gemma-3-4b",
+  "missing": {
+   "wildguard": 1960,
+   "granite4": 1960
+  }
+ },
+ {
+  "type": "A_guards",
+  "folder": "outputs_015272__arxiv.org_abs_2510.05709",
+  "dataset": "LibrAI/do-not-answer",
+  "target": "gemma-3-4b",
+  "missing": {
+   "granite4": 939
+  }
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_015272__arxiv.org_abs_2510.05709",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "llama-3.1-8b",
+  "missing_attacks": 300
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_015272__arxiv.org_abs_2510.05709",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "qwen-2.5-7b",
+  "missing_attacks": 300
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_015272__arxiv.org_abs_2510.05709",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "gemma-3-4b",
+  "missing_attacks": 300
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_017849__arxiv.org_abs_2507.13474",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "llama-3.1-8b",
+  "missing_attacks": 300
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_017849__arxiv.org_abs_2507.13474",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "qwen-2.5-7b",
+  "missing_attacks": 300
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_017849__arxiv.org_abs_2507.13474",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "gemma-3-4b",
+  "missing_attacks": 300
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_024653__www.reddit.com_r_ClaudeAIJailbreak_comments_1qm7p92_strabismus_a_chatgpt_52_expl",
+  "dataset": "swiss-ai/harmbench",
+  "target": "llama-3.1-8b",
+  "missing_attacks": 320
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_024653__www.reddit.com_r_ClaudeAIJailbreak_comments_1qm7p92_strabismus_a_chatgpt_52_expl",
+  "dataset": "swiss-ai/harmbench",
+  "target": "qwen-2.5-7b",
+  "missing_attacks": 320
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_024653__www.reddit.com_r_ClaudeAIJailbreak_comments_1qm7p92_strabismus_a_chatgpt_52_expl",
+  "dataset": "swiss-ai/harmbench",
+  "target": "gemma-3-4b",
+  "missing_attacks": 320
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_024653__www.reddit.com_r_ClaudeAIJailbreak_comments_1qm7p92_strabismus_a_chatgpt_52_expl",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "llama-3.1-8b",
+  "missing_attacks": 300
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_024653__www.reddit.com_r_ClaudeAIJailbreak_comments_1qm7p92_strabismus_a_chatgpt_52_expl",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "qwen-2.5-7b",
+  "missing_attacks": 300
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_024653__www.reddit.com_r_ClaudeAIJailbreak_comments_1qm7p92_strabismus_a_chatgpt_52_expl",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "gemma-3-4b",
+  "missing_attacks": 300
+ },
+ {
+  "type": "B_target",
+  "folder": "outputs_026062__github.com_fvelazquez-X_AI-Red-Teaming",
+  "dataset": "LibrAI/do-not-answer",
+  "target": "gemma-3-4b",
+  "missing_responses": 13
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_026062__github.com_fvelazquez-X_AI-Red-Teaming",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "llama-3.1-8b",
+  "missing_attacks": 300
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_026062__github.com_fvelazquez-X_AI-Red-Teaming",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "qwen-2.5-7b",
+  "missing_attacks": 300
+ },
+ {
+  "type": "C_generate",
+  "folder": "outputs_026062__github.com_fvelazquez-X_AI-Red-Teaming",
+  "dataset": "JailbreakBench/JBB-Behaviors",
+  "target": "gemma-3-4b",
+  "missing_attacks": 300
+ }
+]

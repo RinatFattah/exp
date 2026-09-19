@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes GASP, an optimization-based method that generates adversarial suffixes via latent Bayesian optimization and ORPO fine-tuning, while Source B describes Virtual Context, a special-token injection method that appends affirmative prefixes with tokens like <SEP> to trick the model."}

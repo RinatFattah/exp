@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a black-box image-based prompt injection that embeds adversarial text into natural images at inference time, while Source B describes a data-poisoning/trojan attack that fine-tunes a VLM on poisoned images to make it jailbroken, which are fundamentally different mechanisms."}

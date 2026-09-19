@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A is a general security testing framework for detecting prompt injection and instruction override vulnerabilities, not a jailbreak method itself, while Source B demonstrates a specific indirect prompt injection attack via hidden text in a PDF CV to manipulate an AI evaluator."}

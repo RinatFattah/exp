@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.9, "reason": "Source A describes a roleplay/persona jailbreak (DAN) that bypasses safety via identity reassignment, while Source B describes a direct instruction-override prompt injection ('Ignore previous instructions') to elicit a benign string, which is a different core mechanism."}

@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.98, "reason": "Source A describes an audio-based narrative jailbreak that stylizes speech with paralinguistic cues (therapeutic/performative delivery) to bypass LALM safeguards. Source B describes T-MTB, a backdoor attack using composite multi-token triggers designed to survive knowledge distillation — a completely different mechanism."}

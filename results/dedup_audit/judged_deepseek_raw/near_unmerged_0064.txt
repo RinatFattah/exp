@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A describes a method of fine-tuning an LLM to automatically generate jailbreak prompts, whereas Source B describes a specific manual role-play/prefix-injection jailbreak prompt template."}

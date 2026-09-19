@@ -1,0 +1,1 @@
+{"same_method": false, "confidence": 0.95, "reason": "Source A uses a single role-play persona (Астерал ГПТ) with a direct prompt injection, while Source B combines a Court Jester persona with a Walnut67 character-level encoding and a Royal Authority override, a multi-layered attack with an added encoding component."}
