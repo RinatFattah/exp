@@ -1,5 +1,5 @@
 \begin{table}[htbp]
-\caption{\NEWr \textbf{Curated Mode.} Strict guard-jailbreak lift (percentage points) per vanilla-prompt dataset, on the full-verdict denominator. The ALL row aggregates over the datasets above it; a dash marks a dataset on which the attack was not run.}
+\caption{\NEWr \textbf{Curated Mode.} Strict guard-jailbreak lift (percentage points) per vanilla-prompt dataset, on the full-verdict denominator. The ALL row aggregates over the datasets above it. A dash marks a dataset with fewer than 50 prompts left for that attack, which happens only on JailbreakBench; the ALL row still counts them.}
 \label{tab:gj-lift-curated}
 \centering\scriptsize
 \setlength{\tabcolsep}{3pt}
@@ -9,51 +9,51 @@ Guard & Dataset & \attFITD{} & \attLogi{} & \attBit{} & \attResp{} & \attReNe{} 
 \midrule
 \multirow{6}{*}{WildGuard}
  & AdvBench & $+1.0$ & $+4.0$ & $+1.9$ & $+4.8$ & $+11.7$ & $+0.4$ \\
- & HarmBench & $+6.4$ & $+6.5$ & $+2.0$ & $+2.2$ & $+5.0$ & $+0.0$ \\
+ & HarmBench & $+2.5$ & $+5.0$ & $+0.0$ & $+2.0$ & $+7.0$ & $+0.5$ \\
  & HarmfulQA & $+3.7$ & $+2.0$ & $+13.0$ & $+6.6$ & $+20.3$ & $-0.5$ \\
  & Do-Not-Answer & $+2.8$ & $+1.4$ & $+13.0$ & $+4.0$ & $+15.7$ & $+0.7$ \\
- & JBB-Behaviors & $+2.8$ & $+2.0$ & $+11.3$ & $+5.3$ & $+14.0$ & $-0.4$ \\
- & \textbf{ALL} & $+3.3$ & $+2.5$ & $+10.4$ & $+5.3$ & $+17.0$ & $-0.0$ \\
+ & JBB-Behaviors & $+1.0$ & $+2.0$ & $+2.0$ & $+7.0$ & $+10.0$ & $+0.0$ \\
+ & \textbf{ALL} & $+2.9$ & $+2.3$ & $+10.5$ & $+5.5$ & $+16.9$ & $+0.0$ \\
 \midrule
 \multirow{6}{*}{Qwen3-G.\,$^{\circ}$}
  & AdvBench & $+2.5$ & $+32.7$ & $+10.8$ & $+15.2$ & $+57.3$ & $+2.9$ \\
- & HarmBench & $+15.4$ & $+17.2$ & $+20.8$ & $+10.2$ & $+48.8$ & $+2.5$ \\
+ & HarmBench & $+10.6$ & $+37.0$ & $+7.0$ & $+9.5$ & $+60.5$ & $+3.0$ \\
  & HarmfulQA & $+5.8$ & $+5.4$ & $+41.6$ & $+11.1$ & $+46.5$ & $-1.6$ \\
  & Do-Not-Answer & $+4.8$ & $+7.2$ & $+35.6$ & $+7.3$ & $+40.9$ & $+2.7$ \\
- & JBB-Behaviors & $+1.6$ & $+19.4$ & $+18.0$ & $+14.0$ & $+51.4$ & $+1.4$ \\
- & \textbf{ALL} & $+5.6$ & $+11.8$ & $+32.6$ & $+10.9$ & $+47.2$ & $+0.6$ \\
+ & JBB-Behaviors & $+6.1$ & $+23.0$ & $+13.0$ & $+16.0$ & $+59.0$ & $+4.0$ \\
+ & \textbf{ALL} & $+5.3$ & $+11.9$ & $+33.1$ & $+10.8$ & $+47.7$ & $+0.5$ \\
 \midrule
 \multirow{6}{*}{Qwen3-G.\,$^{\bullet}$}
  & AdvBench & $+0.0$ & $+7.3$ & $+0.0$ & $+1.7$ & $+19.0$ & $+0.6$ \\
- & HarmBench & $+0.3$ & $+3.8$ & $+0.0$ & $+1.0$ & $+17.5$ & $+0.2$ \\
+ & HarmBench & $+1.0$ & $+9.5$ & $+0.0$ & $+1.0$ & $+16.5$ & $+0.5$ \\
  & HarmfulQA & $+0.0$ & $+4.2$ & $-0.6$ & $+2.9$ & $+14.3$ & $+0.0$ \\
  & Do-Not-Answer & $+0.3$ & $+3.6$ & $-0.1$ & $+1.6$ & $+8.0$ & $+0.9$ \\
- & JBB-Behaviors & $+0.0$ & $+5.8$ & $-0.3$ & $+1.3$ & $+11.8$ & $+0.4$ \\
- & \textbf{ALL} & $+0.1$ & $+4.6$ & $-0.3$ & $+2.2$ & $+13.2$ & $+0.3$ \\
+ & JBB-Behaviors & $+0.0$ & $+6.0$ & $+0.0$ & $+2.0$ & $+15.0$ & $+1.0$ \\
+ & \textbf{ALL} & $+0.1$ & $+4.8$ & $-0.3$ & $+2.3$ & $+13.5$ & $+0.3$ \\
 \midrule
 \multirow{6}{*}{Granite-G.}
  & AdvBench & $+0.0$ & $+49.8$ & $+3.1$ & $+7.3$ & $+21.2$ & $+0.8$ \\
- & HarmBench & $-19.2$ & $+30.4$ & $-4.2$ & $-12.2$ & $-8.8$ & $-8.0$ \\
+ & HarmBench & $+0.0$ & $+52.5$ & $+4.0$ & $+7.0$ & $+18.5$ & $+2.5$ \\
  & HarmfulQA & $+0.0$ & $+8.9$ & $+12.1$ & $+1.2$ & $+13.8$ & $+0.3$ \\
  & Do-Not-Answer & $+0.0$ & $+9.1$ & $+17.7$ & $+2.1$ & $+9.1$ & $+1.9$ \\
- & JBB-Behaviors & $+0.0$ & $+31.4$ & $+6.0$ & $+5.3$ & $+12.6$ & $+0.6$ \\
- & \textbf{ALL} & $-1.8$ & $+18.5$ & $+10.2$ & $+1.2$ & $+13.1$ & $-0.0$ \\
+ & JBB-Behaviors & $+0.0$ & $+47.0$ & $+4.0$ & $+2.0$ & $+19.0$ & $+1.0$ \\
+ & \textbf{ALL} & $+0.0$ & $+18.0$ & $+11.6$ & $+2.6$ & $+14.0$ & $+0.9$ \\
 \midrule
 \multirow{6}{*}{Llama-G.}
  & AdvBench & $+31.7$ & $+19.4$ & $+8.1$ & $+15.4$ & $+23.8$ & $+7.5$ \\
- & HarmBench & $+16.7$ & $+1.7$ & $+4.0$ & $+4.8$ & $+2.5$ & $+3.2$ \\
+ & HarmBench & $+23.1$ & $+9.0$ & $+2.5$ & $+10.0$ & $+8.0$ & $+7.0$ \\
  & HarmfulQA & $+5.4$ & $+3.7$ & $+9.2$ & $+6.7$ & $+19.8$ & $-2.9$ \\
  & Do-Not-Answer & $+8.6$ & $+5.0$ & $+22.2$ & $+4.8$ & $+12.4$ & $+0.7$ \\
- & JBB-Behaviors & $+11.6$ & $+9.8$ & $+11.0$ & $+11.0$ & $+14.8$ & $+5.2$ \\
- & \textbf{ALL} & $+11.1$ & $+6.4$ & $+11.6$ & $+7.5$ & $+17.6$ & $+0.6$ \\
+ & JBB-Behaviors & $+23.5$ & $+13.0$ & $+5.0$ & $+9.0$ & $+14.0$ & $+12.0$ \\
+ & \textbf{ALL} & $+11.4$ & $+6.7$ & $+11.8$ & $+7.7$ & $+17.7$ & $+0.4$ \\
 \midrule
 \multirow{6}{*}{gpt-oss-SG.}
  & AdvBench & $+0.6$ & $+0.2$ & $+1.0$ & $+1.7$ & $+8.7$ & $+0.8$ \\
- & HarmBench & $-11.4$ & $-15.3$ & $+5.0$ & $-17.2$ & $-18.8$ & $-6.0$ \\
+ & HarmBench & $+4.0$ & $+1.0$ & $+1.5$ & $+2.0$ & $+8.5$ & $+1.5$ \\
  & HarmfulQA & $+0.7$ & $-1.1$ & $+13.8$ & $+1.6$ & $+9.8$ & $-1.5$ \\
  & Do-Not-Answer & $+1.6$ & $+0.2$ & $+19.2$ & $+1.5$ & $+5.9$ & $+0.6$ \\
- & JBB-Behaviors & $+0.2$ & $-2.0$ & $+8.3$ & $+3.0$ & $+6.4$ & $+0.6$ \\
- & \textbf{ALL} & $-0.3$ & $-2.1$ & $+12.2$ & $-0.1$ & $+7.7$ & $-0.9$ \\
+ & JBB-Behaviors & $+1.0$ & $+0.0$ & $+2.0$ & $+2.0$ & $+8.0$ & $+3.0$ \\
+ & \textbf{ALL} & $+1.1$ & $-0.5$ & $+12.4$ & $+1.6$ & $+8.5$ & $-0.3$ \\
 \bottomrule
 \end{tabular}
 

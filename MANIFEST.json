@@ -3,91 +3,91 @@
   "group": "paper",
   "name": "2025.emnlp-main.100",
   "jsonl": 8,
-  "bytes": 66050482,
+  "bytes": 56421852,
   "verdicts": 1
  },
  {
   "group": "paper",
   "name": "2505.13527v2",
   "jsonl": 8,
-  "bytes": 63198475,
+  "bytes": 52382340,
   "verdicts": 1
  },
  {
   "group": "paper",
   "name": "2506.02479v2",
   "jsonl": 10,
-  "bytes": 29271873,
+  "bytes": 26351287,
   "verdicts": 1
  },
  {
   "group": "paper",
   "name": "2507.05248v2",
   "jsonl": 8,
-  "bytes": 91790719,
+  "bytes": 83470653,
   "verdicts": 4
  },
  {
   "group": "paper",
   "name": "ReNeLLM",
   "jsonl": 10,
-  "bytes": 35911735,
+  "bytes": 33171867,
   "verdicts": 1
  },
  {
   "group": "paper",
   "name": "humanize",
   "jsonl": 8,
-  "bytes": 66758540,
+  "bytes": 57839668,
   "verdicts": 1
  },
  {
   "group": "paper",
   "name": "018565__arxiv.org_abs_2510.17904",
   "jsonl": 7,
-  "bytes": 56357418,
+  "bytes": 50262893,
   "verdicts": 1
  },
  {
   "group": "paper",
   "name": "018482__arxiv.org_abs_2601.03416",
   "jsonl": 7,
-  "bytes": 26138613,
+  "bytes": 23485326,
   "verdicts": 1
  },
  {
   "group": "paper",
   "name": "015272__arxiv.org_abs_2510.05709",
   "jsonl": 7,
-  "bytes": 31574717,
+  "bytes": 29069867,
   "verdicts": 1
  },
  {
   "group": "paper",
   "name": "017849__arxiv.org_abs_2507.13474",
   "jsonl": 7,
-  "bytes": 38067654,
+  "bytes": 34680684,
   "verdicts": 1
  },
  {
   "group": "paper",
   "name": "043008__github.com_sidfeels_redprobe",
   "jsonl": 7,
-  "bytes": 49996550,
+  "bytes": 42503254,
   "verdicts": 1
  },
  {
   "group": "paper",
   "name": "024653__www.reddit.com_r_ClaudeAIJailbreak_comments_1qm7p92_strabismus_a_chatgpt_52_expl",
   "jsonl": 7,
-  "bytes": 60821384,
+  "bytes": 60808607,
   "verdicts": 1
  },
  {
   "group": "paper",
   "name": "026062__github.com_fvelazquez-X_AI-Red-Teaming",
   "jsonl": 7,
-  "bytes": 38751536,
+  "bytes": 35324038,
   "verdicts": 1
  },
  {
